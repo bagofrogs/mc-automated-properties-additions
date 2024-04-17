@@ -2,7 +2,6 @@ from json import load
 from os import listdir
 
 
-
 def loader() -> dict:
     """Generates dictionary with all the information from local json files
 
@@ -16,8 +15,6 @@ def loader() -> dict:
         filename = file[:file.find(".json")] # cut off the .json
         data_dict[filename] = load(open(file)) # load json from file into a python dict
     return data_dict
-
-
 
 def merger(data_dict: dict) -> dict:
     """takes a dictionary with multiple keys that correspond to different files and merges them to obtain a single dict with blocks and items directly
