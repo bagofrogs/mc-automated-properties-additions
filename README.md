@@ -1,6 +1,13 @@
 # mc-automated-properties
 An "automated" way to handle modded blocks/items and import information into block.properties &amp; item.properties files.
 
+# What is this?
+This is two things
+1. A library of json files with clean info on vanilla & modded blocks
+2. A python script that translates those json files into items.properties and blocks.properties fiels for the Photon shaderpack (and maybe others? didn't really check)
+
+Together these two things allow for MUCH faster integration of modded blocks into your shaderpack configuration files ;)
+
 # How to use
 1. clone the repo,
 2. go inside the downloaded folder, in the `input-jsons` folder,
