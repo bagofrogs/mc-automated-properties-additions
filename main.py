@@ -42,7 +42,11 @@ def merger(data_dict: dict) -> dict:
             for object in data_dict[file_key][object_type]: # the actual object with description, block_id, affected_blocks
                 if object["block_id"] not in merged_dict[object_type]:
                     merged_dict[object_type][object["block_id"]] = []
-                merged_dict[object_type][object["block_id"]].extend(object["affected_blocks"])
+                if file_key != "vanilla": # if the objects aren't from vanilla minecraft
+                    full_object_id_list = [file_key+":" + e for e in object["affected_blocks"]] # add mod id in front of block ids
+                else:
+                    full_object_id_list = object["affected_blocks"] # if they are from vanilla minecraft, no need to add any mod ID in front
+                merged_dict[object_type][object["block_id"]].extend(full_object_id_list)
     return merged_dict
 
 
