@@ -5,7 +5,7 @@ An "automated" way to handle modded blocks/items and import information into blo
 1. clone the repo,
 2. go inside the downloaded folder,
 3. remove all the jsons for mods you are not using,
-4. run main.py
+4. run `main.py` with python (pretty standard nowadays, if you don't have python, you'll have to [download it](https://www.python.org/downloads/))
 5. move the generated block.properties file and item.properties to wherever you need them
 
 Profit!
