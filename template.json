@@ -1,0 +1,207 @@
+{
+    "blocks": [
+        {
+            "description": "Strong white light",
+            "block_id": 10032,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Medium white light",
+            "block_id": 10033,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Weak white light, transparent",
+            "block_id": 10034,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Strong golden light",
+            "block_id": 10035,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Medium golden light",
+            "block_id": 10036,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Weak golden light, transparent",
+            "block_id": 10037,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Redstone components",
+            "block_id": 10038,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Lava",
+            "block_id": 10039,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Medium orange light",
+            "block_id": 10040,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Brewing stand",
+            "block_id": 10041,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Jack o' Lantern",
+            "block_id": 10042,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Soul lights",
+            "block_id": 10043,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Beacon",
+            "block_id": 10044,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "End portal frame",
+            "block_id": 10045,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Sculk",
+            "block_id": 10046,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Pink glow",
+            "block_id": 10047,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Sea pickle",
+            "block_id": 10048,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Nether plants",
+            "block_id": 10049,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Candles",
+            "block_id": 10050,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Ochre froglight",
+            "block_id": 10051,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Verdant froglight",
+            "block_id": 10052,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Pearlescent froglight",
+            "block_id": 10053,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Enchanting table",
+            "block_id": 10054,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Amethyst cluster",
+            "block_id": 10055,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Calibrated sculk sensor",
+            "block_id": 10056,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Active sculk sensor",
+            "block_id": 10057,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Redstone block",
+            "block_id": 10058,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "Nether portal",
+            "block_id": 10062,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        },
+        {
+            "description": "End portal",
+            "block_id": 10063,
+            "affected_blocks": [
+                "placeholder"
+            ]
+        }
+    ]
+}

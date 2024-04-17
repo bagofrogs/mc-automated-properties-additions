@@ -1,0 +1,268 @@
+{
+    "block": [
+        {
+            "description": "Strong white light",
+            "block_id": 10032,
+            "affected_blocks": [
+                "sea_lantern"
+            ]
+        },
+        {
+            "description": "Medium white light",
+            "block_id": 10033,
+            "affected_blocks": [
+                "end_rod"
+            ]
+        },
+        {
+            "description": "Weak white light, transparent",
+            "block_id": 10034,
+            "affected_blocks": [
+                "glow_lichen"
+            ]
+        },
+        {
+            "description": "Strong golden light",
+            "block_id": 10035,
+            "affected_blocks": [
+                "glowstone",
+                "lantern",
+                "redstone_lamp:lit=true"
+            ]
+        },
+        {
+            "description": "Medium golden light",
+            "block_id": 10036,
+            "affected_blocks": [
+                "torch",
+                "wall_torch",
+                "campfire:lit=true",
+                "furnace:lit=true",
+                "smoker:lit=true",
+                "blast_furnace:lit=true",
+                "torchflower",
+                "potted_torchflower"
+            ]
+        },
+        {
+            "description": "Weak golden light, transparent",
+            "block_id": 10037,
+            "affected_blocks": [
+                "cave_vines_plant:berries=true",
+                "cave_vines:berries=true"
+            ]
+        },
+        {
+            "description": "Redstone components",
+            "block_id": 10038,
+            "affected_blocks": [
+                "redstone_torch:lit=true",
+                "redstone_wall_torch:lit=true",
+                "powered_rail:powered=true",
+                "activator_rail:powered=true",
+                "detector_rail:powered=true",
+                "repeater:powered=true",
+                "comparator:powered=true",
+                "observer:powered=true",
+                "redstone_ore:lit=true",
+                "deepslate_redstone_ore:lit=true"
+            ]
+        },
+        {
+            "description": "Lava",
+            "block_id": 10039,
+            "affected_blocks": [
+                "lava",
+                "flowing_lava",
+                "lava_cauldron"
+            ]
+        },
+        {
+            "description": "Medium orange light",
+            "block_id": 10040,
+            "affected_blocks": [
+                "fire",
+                "magma_block",
+                "shroomlight"
+            ]
+        },
+        {
+            "description": "Brewing stand",
+            "block_id": 10041,
+            "affected_blocks": [
+                "brewing_stand"
+            ]
+        },
+        {
+            "description": "Jack o' Lantern",
+            "block_id": 10042,
+            "affected_blocks": [
+                "jack_o_lantern"
+            ]
+        },
+        {
+            "description": "Soul lights",
+            "block_id": 10043,
+            "affected_blocks": [
+                "soul_fire",
+                "soul_torch",
+                "soul_wall_torch",
+                "soul_lantern",
+                "soul_campfire:lit=true"
+            ]
+        },
+        {
+            "description": "Beacon",
+            "block_id": 10044,
+            "affected_blocks": [
+                "beacon"
+            ]
+        },
+        {
+            "description": "End portal frame",
+            "block_id": 10045,
+            "affected_blocks": [
+                "end_portal_frame:eye=true"
+            ]
+        },
+        {
+            "description": "Sculk",
+            "block_id": 10046,
+            "affected_blocks": [
+                "sculk",
+                "sculk_vein",
+                "sculk_catalyst",
+                "sculk_shrieker",
+                "sculk_sensor:sculk_sensor_phase=inactive",
+                "sculk_sensor:sculk_sensor_phase=cooldown"
+            ]
+        },
+        {
+            "description": "Pink glow",
+            "block_id": 10047,
+            "affected_blocks": [
+                "spawner",
+                "dragon_head",
+                "dragon_wall_head",
+                "crying_obsidian"
+            ]
+        },
+        {
+            "description": "Sea pickle",
+            "block_id": 10048,
+            "affected_blocks": [
+                "sea_pickle:waterlogged=true"
+            ]
+        },
+        {
+            "description": "Nether plants",
+            "block_id": 10049,
+            "affected_blocks": [
+                "crimson_fungus",
+                "warped_fungus",
+                "potted_crimson_fungus",
+                "potted_warped_fungus"
+            ]
+        },
+        {
+            "description": "Candles",
+            "block_id": 10050,
+            "affected_blocks": [
+                "candle:lit=true",
+                "white_candle:lit=true",
+                "orange_candle:lit=true",
+                "magenta_candle:lit=true",
+                "light_blue_candle:lit=true",
+                "yellow_candle:lit=true",
+                "lime_candle:lit=true",
+                "pink_candle:lit=true",
+                "gray_candle:lit=true",
+                "light_gray_candle:lit=true",
+                "cyan_candle:lit=true",
+                "purple_candle:lit=true",
+                "blue_candle:lit=true",
+                "brown_candle:lit=true",
+                "green_candle:lit=true",
+                "red_candle:lit=true",
+                "black_candle:lit=true"
+            ]
+        },
+        {
+            "description": "Ochre froglight",
+            "block_id": 10051,
+            "affected_blocks": [
+                "ochre_froglight"
+            ]
+        },
+        {
+            "description": "Verdant froglight",
+            "block_id": 10052,
+            "affected_blocks": [
+                "verdant_froglight"
+            ]
+        },
+        {
+            "description": "Pearlescent froglight",
+            "block_id": 10053,
+            "affected_blocks": [
+                "pearlescent_froglight"
+            ]
+        },
+        {
+            "description": "Enchanting table",
+            "block_id": 10054,
+            "affected_blocks": [
+                "enchanting_table"
+            ]
+        },
+        {
+            "description": "Amethyst cluster",
+            "block_id": 10055,
+            "affected_blocks": [
+                "small_amethyst_bud",
+                "medium_amethyst_bud",
+                "large_amethyst_bud",
+                "amethyst_cluster"
+            ]
+        },
+        {
+            "description": "Calibrated sculk sensor",
+            "block_id": 10056,
+            "affected_blocks": [
+                "calibrated_sculk_sensor:sculk_sensor_phase=inactive",
+                "calibrated_sculk_sensor:sculk_sensor_phase=cooldown"
+            ]
+        },
+        {
+            "description": "Active sculk sensor",
+            "block_id": 10057,
+            "affected_blocks": [
+                "calibrated_sculk_sensor:sculk_sensor_phase=active",
+                "sculk_sensor:sculk_sensor_phase=active"
+            ]
+        },
+        {
+            "description": "Redstone block",
+            "block_id": 10058,
+            "affected_blocks": [
+                "redstone_block"
+            ]
+        },
+        {
+            "description": "Nether portal",
+            "block_id": 10062,
+            "affected_blocks": [
+                "nether_portal"
+            ]
+        },
+        {
+            "description": "End portal",
+            "block_id": 10063,
+            "affected_blocks": [
+                "end_portal",
+                "end_gateway"
+            ]
+        }
+    ],
+    "item": []
+}
