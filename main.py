@@ -9,11 +9,11 @@ def loader() -> dict:
         dict: dictionary containing all the information in each json, key corresponds to filename
     """
     data_dict = {} # initialise the dict
-    for file in listdir():
+    for file in listdir("./input-jsons"):
         if ".json" not in file or file == "template.json": # ignore non json files
             continue
         filename = file[:file.find(".json")] # cut off the .json
-        data_dict[filename] = load(open(file)) # load json from file into a python dict
+        data_dict[filename] = load(open("./input-jsons/" + file)) # load json from file into a python dict
     return data_dict
 
 def merger(data_dict: dict) -> dict:
