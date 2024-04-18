@@ -57,9 +57,7 @@ def merger(data_dict: dict) -> dict:
             }
     
     """
-    merged_dict = {}
     merged_dict = {"block":{}, "item":{}, "entity":{}} # instanciate an empty dictionary for each object type
-    full_object_id_list = []
     for file_key in data_dict: # filename minus .json
         for object_type in data_dict[file_key]: # block, item, entity
             for object in data_dict[file_key][object_type]: # the actual object with description, block_id, affected_blocks
