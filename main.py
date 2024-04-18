@@ -58,17 +58,27 @@ def merger(data_dict: dict) -> dict:
     
     """
     merged_dict = {}
+    merged_dict = {"block":{}, "item":{}, "entity":{}} # instanciate an empty dictionary for each object type
+    full_object_id_list = []
     for file_key in data_dict: # filename minus .json
         for object_type in data_dict[file_key]: # block, item, entity
-            merged_dict[object_type] = {} # instanciate an empty dictionary for each object type
             for object in data_dict[file_key][object_type]: # the actual object with description, block_id, affected_blocks
-                if object["block_id"] not in merged_dict[object_type]:
-                    merged_dict[object_type][object["block_id"]] = []
+                current_object_id = object["block_id"] # the ID of the current block. ex: 10032.
+                current_affected_blocks = object["affected_blocks"] # the list of blocks in the current structure
+                if file_key == "chipped":
+                    print("chipped")
+                if object_type == "item":
+                    print("item")
+                if object_type == "entity":
+                    print("entity")
+                current_object_id = object["block_id"] # the ID of the current block. ex: 10032.
+                if current_object_id not in merged_dict[object_type]:
+                    merged_dict[object_type][current_object_id] = []
                 if file_key != "vanilla": # if the objects aren't from vanilla minecraft
-                    full_object_id_list = [file_key+":" + e for e in object["affected_blocks"]] # add mod id in front of block ids
+                    full_object_id_list = [file_key+":" + e for e in current_affected_blocks] # add mod id in front of block ids
                 else:
-                    full_object_id_list = object["affected_blocks"] # if they are from vanilla minecraft, no need to add any mod ID in front
-                merged_dict[object_type][object["block_id"]].extend(full_object_id_list)
+                    full_object_id_list = current_affected_blocks # if they are from vanilla minecraft, no need to add any mod ID in front
+                merged_dict[object_type][current_object_id].extend(full_object_id_list)
     return merged_dict
 
 def existing_file_overwrite(object_type: str) -> bool:
