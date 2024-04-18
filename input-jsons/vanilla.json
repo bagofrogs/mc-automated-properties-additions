@@ -1101,7 +1101,7 @@
                 "gold_ore",
                 "diamond_ore",
                 "emerald_ore",
-                "redstone_ore:lit=false",
+                "redstone_ore",
                 "stone_slab",
                 "stone_stairs",
                 "stone_wall",
