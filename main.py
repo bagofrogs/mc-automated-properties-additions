@@ -1,5 +1,6 @@
 from os import listdir # needed to list the .json files in the folder
 from json import load # needed to load the .json files
+from os.path import exists # needed to check if there already are .properties files present
 
 def loader() -> dict:
     """Generates dictionary with all the information from local json files
@@ -69,6 +70,26 @@ def merger(data_dict: dict) -> dict:
                 merged_dict[object_type][object["block_id"]].extend(full_object_id_list)
     return merged_dict
 
+def existing_file_overwrite(object_type: str) -> bool:
+    """Checks if there is already a properties file in directory matching the specified object type.
+    If yes, asks user confirmation to overwrite it.
+    
+    Args:
+        object_type (str): one of the *.properties object types (block/item/entity)
+
+    Returns:
+        bool: _description_
+    """
+    if exists(object_type + ".properties"):
+        user_confirmation = input("WARNING: there is already a " + object_type + ".properties file in the current directory, do you wish to overwrite?")
+        if user_confirmation in ["y", "yes", "confirm", "overwrite", "ok"]:
+            return True
+        else:
+            print("INFO: Skipped creation of file " + object_type + ".properties.")
+            return False
+    else:
+        return True
+
 def writer(merged_dict : dict, description_data : dict):
     """Takes a merged dict and writes to local x.properties files
 
@@ -82,10 +103,10 @@ def writer(merged_dict : dict, description_data : dict):
             output_string+= "\n# " + description_data[object_type][block_id] # add the description on top
             output_string+= "\n" + object_type + "." + str(block_id) + " = " + " ".join(merged_dict[object_type][block_id]) # add the block ID and affected blocks
         
-        
-        file = open(mode="a", file=object_type+".properties")    
-        file.write(output_string)
-        file.close()
+        if existing_file_overwrite(object_type):
+            file = open(mode="w", file=object_type+".properties")
+            file.write(output_string)
+            file.close()
 
 
 
