@@ -100,7 +100,7 @@ def writer(merged_dict : dict, description_data : dict):
     for object_type in merged_dict: # block or item    
         output_string = ""
         for block_id in merged_dict[object_type]:
-            output_string+= "\n# " + description_data[object_type][block_id] # add the description on top
+            output_string+= "\n\n# " + description_data[object_type][block_id] # add the description on top
             output_string+= "\n" + object_type + "." + str(block_id) + " = " + " ".join(merged_dict[object_type][block_id]) # add the block ID and affected blocks
         
         if existing_file_overwrite(object_type):
