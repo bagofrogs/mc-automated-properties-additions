@@ -65,12 +65,6 @@ def merger(data_dict: dict) -> dict:
             for object in data_dict[file_key][object_type]: # the actual object with description, block_id, affected_blocks
                 current_object_id = object["block_id"] # the ID of the current block. ex: 10032.
                 current_affected_blocks = object["affected_blocks"] # the list of blocks in the current structure
-                if file_key == "chipped":
-                    print("chipped")
-                if object_type == "item":
-                    print("item")
-                if object_type == "entity":
-                    print("entity")
                 current_object_id = object["block_id"] # the ID of the current block. ex: 10032.
                 if current_object_id not in merged_dict[object_type]:
                     merged_dict[object_type][current_object_id] = []
