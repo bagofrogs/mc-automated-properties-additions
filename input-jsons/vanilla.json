@@ -38,7 +38,6 @@
                 "cornflower",
                 "lily_of_the_valley",
                 "wither_rose",
-                "nether_sprouts",
                 "cherry_sapling",
                 "oak_sapling",
                 "birch_sapling",
@@ -47,7 +46,6 @@
                 "dark_oak_sapling",
                 "spruce_sapling",
                 "dead_bush",
-                "wither_rose",
                 "sweet_berry_bush"
             ]
         },
@@ -533,7 +531,7 @@
             ]
         },
         {
-            "description": "Brewing stand",
+            "description": "Brewing stand (medium yellow light)",
             "block_id": 10041,
             "affected_blocks": [
                 "brewing_stand"
@@ -655,7 +653,7 @@
             ]
         },
         {
-            "description": "Enchanting table",
+            "description": "Enchanting table (medium pink light)",
             "block_id": 10054,
             "affected_blocks": [
                 "enchanting_table"
@@ -1176,12 +1174,10 @@
                 "warped_planks",
                 "warped_slab",
                 "warped_stairs",
-                "warped_log",
                 "warped_wood",
                 "crimson_planks",
                 "crimson_slab",
                 "crimson_stairs",
-                "crimson_log",
                 "crimson_wood"
             ]
         },
@@ -1197,7 +1193,7 @@
                 "cut_sandstone_slab",
                 "smooth_sandstone",
                 "sandstone_stairs",
-                "standstone_wall"
+                "sandstone_wall"
             ]
         },
         {
@@ -1221,7 +1217,7 @@
                 "cut_red_sandstone_slab",
                 "smooth_red_sandstone",
                 "red_sandstone_stairs",
-                "standstone_wall",
+                "red_sandstone_wall",
                 "pumpkin",
                 "birch_planks",
                 "birch_slab",
