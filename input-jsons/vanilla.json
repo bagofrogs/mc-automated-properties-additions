@@ -1085,7 +1085,452 @@
             ]
         }
     ],
-    "item": [],
+    "item": [
+        {
+            "description": "Hardcoded specular - Grass, stone, spruce and dark oak planks",
+            "block_id": 10006,
+            "affected_blocks": [
+                "grass_block",
+                "dirt",
+                "coarse_dirt",
+                "rooted_dirt",
+                "stone",
+                "coal_ore",
+                "iron_ore",
+                "copper_ore",
+                "gold_ore",
+                "diamond_ore",
+                "emerald_ore",
+                "redstone_ore:lit=false",
+                "stone_slab",
+                "stone_stairs",
+                "stone_wall",
+                "smooth_stone",
+                "smooth_stone_slab",
+                "infested_stone",
+                "stone_slab",
+                "stone_stairs",
+                "cobblestone",
+                "infested_cobblestone",
+                "cobblestone_slab",
+                "cobblestone_stairs",
+                "cobblestone_wall",
+                "mossy_cobblestone",
+                "mossy_cobblestone_slab",
+                "mossy_cobblestone_stairs",
+                "mossy_cobblestone_wall",
+                "stone_bricks",
+                "stone_brick_slab",
+                "stone_brick_stairs",
+                "stone_brick_wall",
+                "infested_stone_bricks",
+                "mossy_stone_bricks",
+                "mossy_stone_brick_slab",
+                "mossy_stone_brick_stairs",
+                "mossy_stone_brick_wall",
+                "infested_mossy_stone_bricks",
+                "chiseled_stone_bricks",
+                "infested_chiseled_stone_bricks",
+                "andesite",
+                "andesite_slab",
+                "andesite_stairs",
+                "andesite_wall",
+                "polished_andesite",
+                "polished_andesite_slab",
+                "polished_andesite_stairs",
+                "polished_andesite_wall",
+                "deepslate",
+                "cobbled_deepslate",
+                "cobbled_deepslate_slab",
+                "cobbled_deepslate_stairs",
+                "cobbled_deepslate_wall",
+                "polished_deepslate",
+                "polished_deepslate_slab",
+                "polished_deepslate_stairs",
+                "polished_deepslate_wall",
+                "deepslate_bricks",
+                "deepslate_brick_slab",
+                "deepslate_brick_stairs",
+                "deepslate_brick_wall",
+                "deepslate_tiles",
+                "deepslate_tile_slab",
+                "deepslate_tile_stairs",
+                "deepslate_tile_wall",
+                "melon",
+                "netherrack",
+                "spruce_planks",
+                "spruce_slab",
+                "spruce_stairs",
+                "spruce_log",
+                "spruce_wood",
+                "dark_oak_planks",
+                "dark_oak_slab",
+                "dark_oak_stairs",
+                "dark_oak_log",
+                "dark_oak_wood",
+                "mangrove_planks",
+                "mangrove_slab",
+                "mangrove_stairs",
+                "mangrove_log",
+                "mangrove_wood",
+                "warped_planks",
+                "warped_slab",
+                "warped_stairs",
+                "warped_log",
+                "warped_wood",
+                "crimson_planks",
+                "crimson_slab",
+                "crimson_stairs",
+                "crimson_log",
+                "crimson_wood"
+            ]
+        },
+        {
+            "description": "Hardcoded specular - Sand",
+            "block_id": 10007,
+            "affected_blocks": [
+                "sand",
+                "sandstone",
+                "chiseled_sandstone",
+                "cut_sandstone",
+                "sandstone_slab",
+                "cut_sandstone_slab",
+                "smooth_sandstone",
+                "sandstone_stairs",
+                "standstone_wall"
+            ]
+        },
+        {
+            "description": "Hardcoded specular - Ice",
+            "block_id": 10008,
+            "affected_blocks": [
+                "ice",
+                "blue_ice",
+                "packed_ice"
+            ]
+        },
+        {
+            "description": "Hardcoded specular - Red sand, birch planks",
+            "block_id": 10009,
+            "affected_blocks": [
+                "red_sand",
+                "red_sandstone",
+                "chiseled_red_sandstone",
+                "cut_red_sandstone",
+                "red_sandstone_slab",
+                "cut_red_sandstone_slab",
+                "smooth_red_sandstone",
+                "red_sandstone_stairs",
+                "standstone_wall",
+                "pumpkin",
+                "birch_planks",
+                "birch_slab",
+                "birch_stairs",
+                "birch_log",
+                "birch_wood"
+            ]
+        },
+        {
+            "description": "Hardcoded specular - Oak, jungle and acacia planks, granite and diorite",
+            "block_id": 10010,
+            "affected_blocks": [
+                "oak_planks",
+                "oak_slab",
+                "oak_stairs",
+                "oak_log",
+                "oak_wood",
+                "jungle_planks",
+                "jungle_slab",
+                "jungle_stairs",
+                "jungle_log",
+                "jungle_wood",
+                "acacia_planks",
+                "acacia_slab",
+                "acacia_stairs",
+                "acacia_log",
+                "acacia_wood",
+                "granite",
+                "granite_slab",
+                "granite_stairs",
+                "granite_wall",
+                "polished_granite",
+                "polished_granite_slab",
+                "polished_granite_stairs",
+                "polished_granite_wall",
+                "diorite",
+                "diorite_slab",
+                "diorite_stairs",
+                "diorite_wall",
+                "polished_diorite",
+                "polished_diorite_slab",
+                "polished_diorite_stars",
+                "polished_diorite_wall",
+                "dirt_path",
+                "warped_nylium",
+                "crimson_nylium"
+            ]
+        },
+        {
+            "description": "Hardcoded specular - Obsidian, nether bricks",
+            "block_id": 10011,
+            "affected_blocks": [
+                "obsidian",
+                "nether_bricks",
+                "cracked_nether_bricks",
+                "nether_brick_stairs",
+                "nether_brick_slab",
+                "chiseled_nether_bricks"
+            ]
+        },
+        {
+            "description": "Hardcoded specular - Metals",
+            "block_id": 10012,
+            "affected_blocks": [
+                "iron_block",
+                "gold_block",
+                "copper_block",
+                "netherite_block"
+            ]
+        },
+        {
+            "description": "Hardcoded specular - Gems",
+            "block_id": 10013,
+            "affected_blocks": [
+                "diamond_block",
+                "emerald_block",
+                "lapis_block",
+                "quartz",
+                "amethyst_block",
+                "budding_amethyst"
+            ]
+        },
+        {
+            "description": "Strong white light",
+            "block_id": 10032,
+            "affected_blocks": [
+                "sea_lantern"
+            ]
+        },
+        {
+            "description": "Medium white light",
+            "block_id": 10033,
+            "affected_blocks": [
+                "end_rod"
+            ]
+        },
+        {
+            "description": "Weak white light, transparent",
+            "block_id": 10034,
+            "affected_blocks": [
+                "glow_lichen"
+            ]
+        },
+        {
+            "description": "Strong golden light",
+            "block_id": 10035,
+            "affected_blocks": [
+                "glowstone",
+                "lantern"
+            ]
+        },
+        {
+            "description": "Medium golden light",
+            "block_id": 10036,
+            "affected_blocks": [
+                "torch",
+                "wall_torch",
+                "campfire",
+                "torchflower"
+            ]
+        },
+        {
+            "description": "Weak golden light, transparent",
+            "block_id": 10037,
+            "affected_blocks": [
+                "glow_berries"
+            ]
+        },
+        {
+            "description": "Redstone components",
+            "block_id": 10038,
+            "affected_blocks": [
+                "redstone_torch"
+            ]
+        },
+        {
+            "description": "Lava",
+            "block_id": 10039,
+            "affected_blocks": [
+                "lava_bucket"
+            ]
+        },
+        {
+            "description": "Medium orange light",
+            "block_id": 10040,
+            "affected_blocks": [
+                "fire",
+                "magma_block",
+                "shroomlight"
+            ]
+        },
+        {
+            "description": "Brewing stand",
+            "block_id": 10041,
+            "affected_blocks": [
+                "brewing_stand"
+            ]
+        },
+        {
+            "description": "Jack o' Lantern",
+            "block_id": 10042,
+            "affected_blocks": [
+                "jack_o_lantern"
+            ]
+        },
+        {
+            "description": "Soul lights",
+            "block_id": 10043,
+            "affected_blocks": [
+                "soul_fire",
+                "soul_torch",
+                "soul_lantern",
+                "soul_campfire"
+            ]
+        },
+        {
+            "description": "Beacon",
+            "block_id": 10044,
+            "affected_blocks": [
+                "beacon"
+            ]
+        },
+        {
+            "description": "End portal frame",
+            "block_id": 10045,
+            "affected_blocks": [
+                "ender_eye"
+            ]
+        },
+        {
+            "description": "Sculk",
+            "block_id": 10046,
+            "affected_blocks": [
+                "sculk",
+                "sculk_vein",
+                "sculk_catalyst",
+                "sculk_shrieker",
+                "sculk_sensor"
+            ]
+        },
+        {
+            "description": "Pink glow",
+            "block_id": 10047,
+            "affected_blocks": [
+                "spawner",
+                "dragon_head",
+                "crying_obsidian"
+            ]
+        },
+        {
+            "description": "Sea pickle",
+            "block_id": 10048,
+            "affected_blocks": [
+                "sea_pickle"
+            ]
+        },
+        {
+            "description": "Nether plants",
+            "block_id": 10049,
+            "affected_blocks": [
+                "crimson_fungus",
+                "warped_fungus"
+            ]
+        },
+        {
+            "description": "Candles",
+            "block_id": 10050,
+            "affected_blocks": [
+                "candle",
+                "white_candle",
+                "orange_candle",
+                "magenta_candle",
+                "light_blue_candle",
+                "yellow_candle",
+                "lime_candle",
+                "pink_candle",
+                "gray_candle",
+                "light_gray_candle",
+                "cyan_candle",
+                "purple_candle",
+                "blue_candle",
+                "brown_candle",
+                "green_candle",
+                "red_candle",
+                "black_candle"
+            ]
+        },
+        {
+            "description": "Ochre froglight",
+            "block_id": 10051,
+            "affected_blocks": [
+                "ochre_froglight"
+            ]
+        },
+        {
+            "description": "Verdant froglight",
+            "block_id": 10052,
+            "affected_blocks": [
+                "verdant_froglight"
+            ]
+        },
+        {
+            "description": "Pearlescent froglight",
+            "block_id": 10053,
+            "affected_blocks": [
+                "pearlescent_froglight"
+            ]
+        },
+        {
+            "description": "Enchanting table",
+            "block_id": 10054,
+            "affected_blocks": [
+                "enchanting_table"
+            ]
+        },
+        {
+            "description": "Amethyst cluster",
+            "block_id": 10055,
+            "affected_blocks": [
+                "small_amethyst_bud",
+                "medium_amethyst_bud",
+                "large_amethyst_bud",
+                "amethyst_cluster"
+            ]
+        },
+        {
+            "description": "Redstone block",
+            "block_id": 10058,
+            "affected_blocks": [
+                "redstone_block"
+            ]
+        },
+        {
+            "description": "Nether portal",
+            "block_id": 10062,
+            "affected_blocks": [
+                "nether_portal"
+            ]
+        },
+        {
+            "description": "End portal",
+            "block_id": 10063,
+            "affected_blocks": [
+                "end_portal",
+                "end_gateway"
+            ]
+        }
+
+    ],
     "entity": [
         {
             "description": "Weak SSS",
