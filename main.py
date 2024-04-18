@@ -57,9 +57,10 @@ def merger(data_dict: dict) -> dict:
             }
     
     """
-    merged_dict = {"block":{}, "item": {}}
+    merged_dict = {}
     for file_key in data_dict: # filename minus .json
-        for object_type in data_dict[file_key]: # block or item
+        for object_type in data_dict[file_key]: # block, item, entity
+            merged_dict[object_type] = {} # instanciate an empty dictionary for each object type
             for object in data_dict[file_key][object_type]: # the actual object with description, block_id, affected_blocks
                 if object["block_id"] not in merged_dict[object_type]:
                     merged_dict[object_type][object["block_id"]] = []
