@@ -1,0 +1,81 @@
+{
+    "name": "Naturalist",
+    "description": "A mod that adds new animal species to meet & kill",
+    "id": "naturalist",
+    "version": "",
+    "comments": "",
+    "data": {
+        "block": [
+            {
+                "description": "Tall plants (lower half)",
+                "object_id": 10003,
+                "affected_objects": [
+                    "cattail:half=lower"
+                ]
+            },
+            {
+                "description": "Tall plants (upper half)",
+                "object_id": 10004,
+                "affected_objects": [
+                    "cattail:half=upper"
+                ]
+            },
+            {
+                "description": "Brewing stand",
+                "object_id": 10041,
+                "affected_objects": [
+                    "glow_goop"
+                ]
+            },
+            {
+                "description": "Tinting Blocks: Blue",
+                "object_id": 10070,
+                "affected_objects": [
+                    "azure_froglass",
+                    "azure_froglass_pane"
+                ]
+            },
+            {
+                "description": "Tinting Blocks: Green",
+                "object_id": 10068,
+                "affected_objects": [
+                    "verdant_froglass",
+                    "verdant_froglass_pane"
+                ]
+            },
+            {
+                "description": "Tinting Blocks: Red",
+                "object_id": 10064,
+                "affected_objects": [
+                    "crimson_froglass",
+                    "crimson_froglass_pane"
+                ]
+            },
+            {
+                "description": "Tinting Blocks: Transparent",
+                "object_id": 10080,
+                "affected_objects": [
+                    "duckweed"
+                ]
+            }
+        ],
+        "item": [
+            {
+                "description": "Brewing stand",
+                "object_id": 10041,
+                "affected_objects": [
+                    "glow_goop"
+                ]
+            }
+        ],
+        "entity": [
+            {
+                "description": "Brewing stand",
+                "object_id": 10041,
+                "affected_objects": [
+                    "firefly"
+                ]
+            }
+        ]
+    }
+}
