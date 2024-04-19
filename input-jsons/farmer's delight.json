@@ -1,0 +1,42 @@
+{
+    "name": "Farmer's Delight",
+    "description": "A mod that adds multiple new crops to farm as well as new recipes to cook",
+    "id": "farmersdelight",
+    "version": "",
+    "comments": "",
+    "data": {
+        "block": [
+            {
+                "description": "Small plants",
+                "block_id": 10002,
+                "affected_blocks": [
+                    "sandy_shrub",
+                    "wild_cabbage",
+                    "wild_onion",
+                    "tomato_shrub",
+                    "wild_carrot",
+                    "wild_potato",
+                    "sea_beet",
+                    "wild_rice",
+                    "brown_mushroom_colony",
+                    "red_mushroom_colony",
+                    "budding_tomatoes"
+                ]
+            },
+            {
+                "description": "Medium golden light",
+                "block_id": 10036,
+                "affected_blocks": [
+                    "stove:lit=true"
+                ]
+            },
+            {
+                "description": "Tinting Blocks: Transparent",
+                "block_id": 10080,
+                "affected_blocks": [
+                    "safety_net"
+                ]
+            }
+        ]
+    }
+}
