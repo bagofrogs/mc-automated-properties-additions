@@ -4,7 +4,7 @@ An "automated" way to handle modded blocks/items and import information into blo
 # What is this?
 This is two things
 1. A library of json files with clean info on vanilla & modded blocks
-2. A python script that translates those json files into items.properties and blocks.properties fields for the Photon shaderpack (and maybe others? didn't really check)
+2. A python script that translates those json files into `items.properties`, `blocks.properties`, and `entity.properties` for the Photon shaderpack (and maybe others? didn't really check)
 
 Together these two things allow for MUCH faster integration of modded blocks into your shaderpack configuration files ;)
 
