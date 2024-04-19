@@ -1,0 +1,26 @@
+{
+    "name": "Fabric Waystones",
+    "description": "A fabric port of the waystones mod that adds waystones for fast travel",
+    "id": "fwaystones",
+    "version": "",
+    "comments": "",
+    "data": {
+        "block": [
+            {
+                "description": "Pink glow",
+                "block_id": 10047,
+                "affected_blocks": [
+                    "waystone:active=true",
+                    "blackstone_brick_waystone:active=true",
+                    "desert_waystone:active=true",
+                    "red_desert_waystone:active=true",
+                    "stone_brick_waystone:active=true",
+                    "nether_brick_waystone:active=true",
+                    "red_nether_brick_waystone:active=true",
+                    "end_stone_brick_waystone:active=true",
+                    "deepslate_brick_waystone:active=true"
+                ]
+            }
+        ]
+    }
+}
