@@ -78,48 +78,48 @@ def merger(data_dict: dict) -> dict:
                 merged_dict[object_type][current_object_id].extend(full_object_id_list)
     return merged_dict
 
-def existing_file_overwrite(object_type: str) -> bool:
-    """Checks if there is already a properties file in directory matching the specified object type.
-    If yes, asks user confirmation to overwrite it.
-    
-    Args:
-        object_type (str): one of the *.properties object types (block/item/entity)
-
-    Returns:
-        bool: _description_
+def check_existing_file():
+    """Checks if there is already a properties file in the directory.
+    If yes, asks user confirmation to overwrite. If user declines, exits the program.
     """
-    if exists(object_type + ".properties"):
-        user_confirmation = input("WARNING: there is already a " + object_type + ".properties file in the current directory, do you wish to overwrite?")
+    confirmation_needed = False
+    for object_type in ["entity", "item", "block"]:
+        if exists(object_type + ".properties"):
+            print("WARNING: there is already a " + object_type + ".properties file in the current directory!")
+            confirmation_needed = True
+    if confirmation_needed:
+        user_confirmation = input("Do you wish to overwrite?")
         if user_confirmation in ["y", "yes", "confirm", "overwrite", "ok"]:
-            return True
+                return
         else:
-            print("INFO: Skipped creation of file " + object_type + ".properties.")
-            return False
+            exit(0)
     else:
-        return True
+        return
+        
 
 def writer(merged_dict : dict, description_data : dict):
     """Takes a merged dict and writes to local x.properties files
 
     Args:
         blocks_to_write (dict): a dictionary containing the blocks 
-    """
+    """     
     
-    for object_type in merged_dict: # block or item    
+    for object_type in merged_dict: # block/item/entity
+        print("Writing data to " + object_type + ".properties")
         output_string = ""
         for block_id in merged_dict[object_type]:
             output_string+= "\n\n# " + description_data[object_type][block_id] # add the description on top
             output_string+= "\n" + object_type + "." + str(block_id) + " = " + " ".join(merged_dict[object_type][block_id]) # add the block ID and affected blocks
         
-        if existing_file_overwrite(object_type):
-            file = open(mode="w", file=object_type+".properties")
-            file.write(output_string)
-            file.close()
+        file = open(mode="w", file=object_type+".properties")
+        file.write(output_string)
+        file.close()
 
 
-
+check_existing_file()
 raw_data = loader()
 description_data = description_obtainer(raw_data["vanilla"])
 merged_dict = merger(raw_data)
 
 writer(merged_dict, description_data)
+print("Done.")
