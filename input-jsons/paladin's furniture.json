@@ -1,0 +1,82 @@
+{
+    "name": "Paladin's Furniture",
+    "description": "A mod adds modern furniture items",
+    "id": "pfm",
+    "version": "",
+    "comments": "I am aware of the white excedent on ovens, but it was either that or no light at all. Feel free to remove them from your file if it bothers you.",
+    "data": {
+        "block": [
+            {
+                "description": "Hardcoded specular - Gems",
+                "block_id": 10013,
+                "affected_blocks": [
+                    "white_mirror",
+                    "gray_mirror"
+                ]
+            },
+            {
+                "description": "Transparent metal objects",
+                "block_id": 10018,
+                "affected_blocks": [
+                    "iron_chain",
+                    "basic_cutlery",
+                    "basic_shower_head",
+                    "basic_shower_handle",
+                    "metal_trashcan",
+                    "mesh_trashcan"
+                ]
+            },
+            {
+                "description": "Strong white light",
+                "block_id": 10032,
+                "affected_blocks": [
+                    "gray_modern_pendant:lit=true",
+                    "white_modern_pendant:lit=true",
+                    "glass_modern_pendant:lit=true",
+                    "basic_lamp:lit=true",
+                    "simple_light:lit=true"
+                ]
+            },
+            {
+                "description": "Weak golden light, transparent",
+                "block_id": 10041,
+                "affected_blocks": [
+                    "oak_kitchen_counter_oven:lit=true",
+                    "stripped_oak_kitchen_counter_oven:lit=true",
+                    "spruce_kitchen_counter_oven:lit=true",
+                    "stripped_spruce_kitchen_counter_oven:lit=true",
+                    "birch_kitchen_counter_oven:lit=true",
+                    "stripped_birch_kitchen_counter_oven:lit=true",
+                    "dark_oak_kitchen_counter_oven:lit=true",
+                    "stripped_dark_oak_kitchen_counter_oven:lit=true",
+                    "warped_kitchen_counter_oven:lit=true",
+                    "stripped_warped_kitchen_counter_oven:lit=true",
+                    "jungle_kitchen_counter_oven:lit=true",
+                    "stripped_jungle_kitchen_counter_oven:lit=true",
+                    "cherry_kitchen_counter_oven:lit=true",
+                    "stripped_cherry_kitchen_counter_oven:lit=true",
+                    "acacia_kitchen_counter_oven:lit=true",
+                    "stripped_acacia_kitchen_counter_oven:lit=true",
+                    "crimson_kitchen_counter_oven:lit=true",
+                    "stripped_crimson_kitchen_counter_oven:lit=true",
+                    "mangrove_kitchen_counter_oven:lit=true",
+                    "stripped_mangrove_kitchen_counter_oven:lit=true",
+                    "netherite_kitchen_counter_oven:lit=true",
+                    "light_wooden_kitchen_counter_oven:lit=true",
+                    "dark_wooden_kitchen_counter_oven:lit=true",
+                    "granite_kitchen_counter_oven:lit=true",
+                    "calcite_kitchen_counter_oven:lit=true",
+                    "andesite_kitchen_counter_oven:lit=true",
+                    "diorite_kitchen_counter_oven:lit=true",
+                    "deepslate_kitchen_counter_oven:lit=true",
+                    "blackstone_kitchen_counter_oven:lit=true",
+                    "stone_kitchen_counter_oven:lit=true",
+                    "dark_concrete_kitchen_counter_oven:lit=true",
+                    "concrete_kitchen_counter_oven:lit=true",
+                    "smooth_stone_kitchen_counter_oven:lit=true",
+                    "deepslate_tile_kitchen_counter_oven:lit=true"
+                ]
+            }
+        ]
+    }
+}
