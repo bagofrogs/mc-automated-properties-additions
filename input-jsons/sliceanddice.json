@@ -1,0 +1,18 @@
+{
+    "block": [
+        {
+            "description": "Water",
+            "block_id": 10001,
+            "affected_blocks": [
+                "fertilizer"
+            ]
+        },
+        {
+            "description": "Transparent metal objects",
+            "block_id": 10018,
+            "affected_blocks": [
+                "sprinkler"
+            ]
+        }
+    ]
+}
