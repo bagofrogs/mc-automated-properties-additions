@@ -9,8 +9,8 @@
 
             {
                 "description": "Hardcoded specular - Obsidian, nether bricks",
-                "block_id": 10011,
-                "affected_blocks": [
+                "object_id": 10011,
+                "affected_objects": [
                     "blue_glazed_thin_pot",
                     "blue_glazed_medium_pot",
                     "blue_glazed_thick_pot",
@@ -35,8 +35,8 @@
             },
             {
                 "description": "Transparent metal objects",
-                "block_id": 10018,
-                "affected_blocks": [
+                "object_id": 10018,
+                "affected_objects": [
                     "golden_thin_pot",
                     "golden_medium_pot",
                     "golden_thick_pot",
@@ -45,8 +45,8 @@
             },
             {
                 "description": "Medium golden light",
-                "block_id": 10036,
-                "affected_blocks": [
+                "object_id": 10036,
+                "affected_objects": [
                     "oven:lit=true"
                 ]
             }

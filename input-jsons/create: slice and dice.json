@@ -7,15 +7,15 @@
         "block": [
             {
                 "description": "Water",
-                "block_id": 10001,
-                "affected_blocks": [
+                "object_id": 10001,
+                "affected_objects": [
                     "fertilizer"
                 ]
             },
             {
                 "description": "Transparent metal objects",
-                "block_id": 10018,
-                "affected_blocks": [
+                "object_id": 10018,
+                "affected_objects": [
                     "sprinkler"
                 ]
             }

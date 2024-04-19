@@ -8,16 +8,16 @@
         "block": [
             {
                 "description": "Hardcoded specular - Obsidian, nether bricks",
-                "block_id": 10011,
-                "affected_blocks": [
+                "object_id": 10011,
+                "affected_objects": [
                     "obsidian_chest",
                     "netherite_chest"
                 ]
             },
             {
                 "description": "Hardcoded specular - Metals",
-                "block_id": 10012,
-                "affected_blocks": [
+                "object_id": 10012,
+                "affected_objects": [
                     "iron_chest",
                     "copper_chest",
                     "gold_chest"
@@ -25,16 +25,16 @@
             },
             {
                 "description": "Hardcoded specular - Gems",
-                "block_id": 10013,
-                "affected_blocks": [
+                "object_id": 10013,
+                "affected_objects": [
                     "diamond_chest",
                     "emerald_chest"
                 ]
             },
             {
                 "description": "Tinting Blocks: Transparent",
-                "block_id": 10080,
-                "affected_blocks": [
+                "object_id": 10080,
+                "affected_objects": [
                     "crystal_chest"
                 ]
             }

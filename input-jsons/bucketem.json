@@ -7,29 +7,29 @@
         "item": [
             {
                 "description": "Medium white light",
-                "block_id": 10033,
-                "affected_blocks": [
+                "object_id": 10033,
+                "affected_objects": [
                     "glow_squid_bucket"
                 ]
             },
             {
                 "description": "Redstone components",
-                "block_id": 10038,
-                "affected_blocks": [
+                "object_id": 10038,
+                "affected_objects": [
                     "magma_bottle"
                 ]
             },
             {
                 "description": "Pink glow",
-                "block_id": 10047,
-                "affected_blocks": [
+                "object_id": 10047,
+                "affected_objects": [
                     "endermite_bottle"
                 ]
             },
             {
                 "description": "Sea pickle",
-                "block_id": 10048,
-                "affected_blocks": [
+                "object_id": 10048,
+                "affected_objects": [
                     "slime_bottle"
                 ]
             }

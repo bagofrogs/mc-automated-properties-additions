@@ -8,8 +8,8 @@
         "block": [
             {
                 "description": "Small plants",
-                "block_id": 10002,
-                "affected_blocks": [
+                "object_id": 10002,
+                "affected_objects": [
                     "sandy_shrub",
                     "wild_cabbage",
                     "wild_onion",
@@ -25,15 +25,15 @@
             },
             {
                 "description": "Medium golden light",
-                "block_id": 10036,
-                "affected_blocks": [
+                "object_id": 10036,
+                "affected_objects": [
                     "stove:lit=true"
                 ]
             },
             {
                 "description": "Tinting Blocks: Transparent",
-                "block_id": 10080,
-                "affected_blocks": [
+                "object_id": 10080,
+                "affected_objects": [
                     "safety_net"
                 ]
             }

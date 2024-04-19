@@ -8,16 +8,16 @@
         "block": [
             {
                 "description": "Hardcoded specular - Gems",
-                "block_id": 10013,
-                "affected_blocks": [
+                "object_id": 10013,
+                "affected_objects": [
                     "white_mirror",
                     "gray_mirror"
                 ]
             },
             {
                 "description": "Transparent metal objects",
-                "block_id": 10018,
-                "affected_blocks": [
+                "object_id": 10018,
+                "affected_objects": [
                     "iron_chain",
                     "basic_cutlery",
                     "basic_shower_head",
@@ -28,8 +28,8 @@
             },
             {
                 "description": "Strong white light",
-                "block_id": 10032,
-                "affected_blocks": [
+                "object_id": 10032,
+                "affected_objects": [
                     "gray_modern_pendant:lit=true",
                     "white_modern_pendant:lit=true",
                     "glass_modern_pendant:lit=true",
@@ -39,8 +39,8 @@
             },
             {
                 "description": "Weak golden light, transparent",
-                "block_id": 10041,
-                "affected_blocks": [
+                "object_id": 10041,
+                "affected_objects": [
                     "oak_kitchen_counter_oven:lit=true",
                     "stripped_oak_kitchen_counter_oven:lit=true",
                     "spruce_kitchen_counter_oven:lit=true",

@@ -7,135 +7,135 @@
         "block": [
             {
                 "description": "Medium golden light",
-                "block_id": 10036,
-                "affected_blocks": [
+                "object_id": 10036,
+                "affected_objects": [
                     "torchheater:level>0"
                 ]
             },
             {
                 "description": "Redstone components",
-                "block_id": 10038,
-                "affected_blocks": [
+                "object_id": 10038,
+                "affected_objects": [
                     "season_detector:power>0"
                 ]
             },
             {
                 "description": "Soul lights",
-                "block_id": 10043,
-                "affected_blocks": [
+                "object_id": 10043,
+                "affected_objects": [
                     "chiller:level>0"
                 ]
             },
             {
                 "description": "Tinting Blocks: Red",
-                "block_id": 10064,
-                "affected_blocks": [
+                "object_id": 10064,
+                "affected_objects": [
                     "red_greenhouse_glass"
                 ]
             },
             {
                 "description": "Tinting Blocks: Orange",
-                "block_id": 10065,
-                "affected_blocks": [
+                "object_id": 10065,
+                "affected_objects": [
                     "orange_greenhouse_glass"
                 ]
             },
             {
                 "description": "Tinting Blocks: Yellow",
-                "block_id": 10066,
-                "affected_blocks": [
+                "object_id": 10066,
+                "affected_objects": [
                     "yellow_greenhouse_glass"
                 ]
             },
             {
                 "description": "Tinting Blocks: Brown",
-                "block_id": 10067,
-                "affected_blocks": [
+                "object_id": 10067,
+                "affected_objects": [
                     "brown_greenhouse_glass"
                 ]
             },
             {
                 "description": "Tinting Blocks: Green",
-                "block_id": 10068,
-                "affected_blocks": [
+                "object_id": 10068,
+                "affected_objects": [
                     "green_greenhouse_glass"
                 ]
             },
             {
                 "description": "Tinting Blocks: Lime",
-                "block_id": 10069,
-                "affected_blocks": [
+                "object_id": 10069,
+                "affected_objects": [
                     "lime_greenhouse_glass"
                 ]
             },
             {
                 "description": "Tinting Blocks: Blue",
-                "block_id": 10070,
-                "affected_blocks": [
+                "object_id": 10070,
+                "affected_objects": [
                     "blue_greenhouse_glass"
                 ]
             },
             {
                 "description": "Tinting Blocks: Light blue",
-                "block_id": 10071,
-                "affected_blocks": [
+                "object_id": 10071,
+                "affected_objects": [
                     "light_blue_greenhouse_glass"
                 ]
             },
             {
                 "description": "Tinting Blocks: Cyan",
-                "block_id": 10072,
-                "affected_blocks": [
+                "object_id": 10072,
+                "affected_objects": [
                     "cyan_greenhouse_glass"
                 ]
             },
             {
                 "description": "Tinting Blocks: Purple",
-                "block_id": 10073,
-                "affected_blocks": [
+                "object_id": 10073,
+                "affected_objects": [
                     "purple_greenhouse_glass"
                 ]
             },
             {
                 "description": "Tinting Blocks: Magenta",
-                "block_id": 10074,
-                "affected_blocks": [
+                "object_id": 10074,
+                "affected_objects": [
                     "magenta_greenhouse_glass"
                 ]
             },
             {
                 "description": "Tinting Blocks: Pink",
-                "block_id": 10075,
-                "affected_blocks": [
+                "object_id": 10075,
+                "affected_objects": [
                     "pink_greenhouse_glass"
                 ]
             },
             {
                 "description": "Tinting Blocks: Black",
-                "block_id": 10076,
-                "affected_blocks": [
+                "object_id": 10076,
+                "affected_objects": [
                     "black_greenhouse_glass",
                     "tinted_greenhouse_glass"
                 ]
             },
             {
                 "description": "Tinting Blocks: White",
-                "block_id": 10077,
-                "affected_blocks": [
+                "object_id": 10077,
+                "affected_objects": [
                     "white_greenhouse_glass"
                 ]
             },
             {
                 "description": "Tinting Blocks: Gray",
-                "block_id": 10078,
-                "affected_blocks": [
+                "object_id": 10078,
+                "affected_objects": [
                     "gray_greenhouse_glass"
                 ]
             },
             {
                 "description": "Tinting Blocks: Light gray",
-                "block_id": 10079,
-                "affected_blocks": [
+                "object_id": 10079,
+                "affected_objects": [
                     "light_gray_greenhouse_glass"
                 ]
             }

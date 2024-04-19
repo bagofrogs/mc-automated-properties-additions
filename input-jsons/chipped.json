@@ -7,8 +7,8 @@
         "block": [
             {
                 "description": "Small plants",
-                "block_id": 10002,
-                "affected_blocks": [
+                "object_id": 10002,
+                "affected_objects": [
                     "bulbed_brown_mushroom",
                     "button_brown_mushroom",
                     "clustered_brown_mushroom",
@@ -61,8 +61,8 @@
             },
             {
                 "description": "Leaves",
-                "block_id": 10005,
-                "affected_blocks": [
+                "object_id": 10005,
+                "affected_objects": [
                     "apple_acacia_leaves",
                     "cherry_acacia_leaves",
                     "dead_acacia_leaves",
@@ -133,8 +133,8 @@
             },
             {
                 "description": "Hardcoded specular - Grass, stone, spruce and dark oak planks",
-                "block_id": 10006,
-                "affected_blocks": [
+                "object_id": 10006,
+                "affected_objects": [
                     "dirt_bricks",
                     "dirt_mini_tiles",
                     "dirt_pillar",
@@ -959,8 +959,8 @@
             },
             {
                 "description": "Hardcoded specular - Sand",
-                "block_id": 10007,
-                "affected_blocks": [
+                "object_id": 10007,
+                "affected_objects": [
                     "ash_sand",
                     "coarse_sand",
                     "desert_sand",
@@ -1041,8 +1041,8 @@
             },
             {
                 "description": "Hardcoded specular - Ice",
-                "block_id": 10008,
-                "affected_blocks": [
+                "object_id": 10008,
+                "affected_objects": [
                     "ice_bricks",
                     "ice_mini_tiles",
                     "ice_pillar",
@@ -1245,8 +1245,8 @@
             },
             {
                 "description": "Hardcoded specular - Red sand, birch planks",
-                "block_id": 10009,
-                "affected_blocks": [
+                "object_id": 10009,
+                "affected_objects": [
                     "lush_red_sand",
                     "wet_red_sand",
                     "red_sandstone_bricks",
@@ -1368,8 +1368,8 @@
             },
             {
                 "description": "Hardcoded specular - Oak, jungle and acacia planks, granite and diorite",
-                "block_id": 10010,
-                "affected_blocks": [
+                "object_id": 10010,
+                "affected_objects": [
                     "thin_oak_planks",
                     "tiled_oak_planks",
                     "versailles_oak_planks",
@@ -1629,8 +1629,8 @@
             },
             {
                 "description": "Hardcoded specular - Obsidian, nether bricks",
-                "block_id": 10011,
-                "affected_blocks": [
+                "object_id": 10011,
+                "affected_objects": [
                     "obsidian_bricks",
                     "obsidian_mini_tiles",
                     "obsidian_pillar",
@@ -1767,8 +1767,8 @@
             },
             {
                 "description": "Hardcoded specular - Metals",
-                "block_id": 10012,
-                "affected_blocks": [
+                "object_id": 10012,
+                "affected_objects": [
                     "iron_block_panels",
                     "ancient_iron_block",
                     "chipped_iron_block",
@@ -1857,8 +1857,8 @@
             },
             {
                 "description": "Hardcoded specular - Gems",
-                "block_id": 10013,
-                "affected_blocks": [
+                "object_id": 10013,
+                "affected_objects": [
                     "diamond_block_panels",
                     "ancient_diamond_block",
                     "chipped_diamond_block",
@@ -2081,8 +2081,8 @@
             },
             {
                 "description": "Strong SSS",
-                "block_id": 10014,
-                "affected_blocks": [
+                "object_id": 10014,
+                "affected_objects": [
                     "droopy_vine",
                     "flowery_vine",
                     "ivy_vine",
@@ -2131,8 +2131,8 @@
             },
             {
                 "description": "Weak SSS",
-                "block_id": 10015,
-                "affected_blocks": [
+                "object_id": 10015,
+                "affected_objects": [
                     "broken_cobweb",
                     "hanging_broken_cobweb",
                     "cobweb_arch",
@@ -2481,8 +2481,8 @@
             },
             {
                 "description": "End stone",
-                "block_id": 10017,
-                "affected_blocks": [
+                "object_id": 10017,
+                "affected_objects": [
                     "end_stone_bricks",
                     "end_stone_mini_tiles",
                     "end_stone_pillar",
@@ -2553,8 +2553,8 @@
             },
             {
                 "description": "Transparent metal objects",
-                "block_id": 10018,
-                "affected_blocks": [
+                "object_id": 10018,
+                "affected_objects": [
                     "iron_bars_top",
                     "barbed_iron_bars",
                     "bolted_iron_bars",
@@ -2580,8 +2580,8 @@
             },
             {
                 "description": "Warped stem (x axis)",
-                "block_id": 10019,
-                "affected_blocks": [
+                "object_id": 10019,
+                "affected_objects": [
                     "bundled_warped_stem:axis=x",
                     "center_cut_warped_stem:axis=x",
                     "damaged_warped_stem:axis=x",
@@ -2596,8 +2596,8 @@
             },
             {
                 "description": "Warped stem (y axis)",
-                "block_id": 10020,
-                "affected_blocks": [
+                "object_id": 10020,
+                "affected_objects": [
                     "bundled_warped_stem:axis=z",
                     "center_cut_warped_stem:axis=z",
                     "damaged_warped_stem:axis=z",
@@ -2612,8 +2612,8 @@
             },
             {
                 "description": "Warped stem (z axis)",
-                "block_id": 10021,
-                "affected_blocks": [
+                "object_id": 10021,
+                "affected_objects": [
                     "bundled_warped_stem:axis=y",
                     "center_cut_warped_stem:axis=y",
                     "damaged_warped_stem:axis=y",
@@ -2628,8 +2628,8 @@
             },
             {
                 "description": "Crimson stem (x axis)",
-                "block_id": 10023,
-                "affected_blocks": [
+                "object_id": 10023,
+                "affected_objects": [
                     "bundled_crimson_stem:axis=x",
                     "center_cut_crimson_stem:axis=x",
                     "crying_crimson_stem:axis=x",
@@ -2648,8 +2648,8 @@
             },
             {
                 "description": "Crimson stem (y axis)",
-                "block_id": 10024,
-                "affected_blocks": [
+                "object_id": 10024,
+                "affected_objects": [
                     "bundled_crimson_stem:axis=y",
                     "center_cut_crimson_stem:axis=y",
                     "crying_crimson_stem:axis=y",
@@ -2668,8 +2668,8 @@
             },
             {
                 "description": "Crimson stem (z axis)",
-                "block_id": 10025,
-                "affected_blocks": [
+                "object_id": 10025,
+                "affected_objects": [
                     "bundled_crimson_stem:axis=z",
                     "center_cut_crimson_stem:axis=z",
                     "crying_crimson_stem:axis=z",
@@ -2688,8 +2688,8 @@
             },
             {
                 "description": "Strong white light",
-                "block_id": 10032,
-                "affected_blocks": [
+                "object_id": 10032,
+                "affected_objects": [
                     "broken_sea_lantern",
                     "bulbed_sea_lantern",
                     "cracked_sea_lantern",
@@ -2718,15 +2718,15 @@
             },
             {
                 "description": "Medium white light",
-                "block_id": 10033,
-                "affected_blocks": [
+                "object_id": 10033,
+                "affected_objects": [
                     "crimson_torch"
                 ]
             },
             {
                 "description": "Strong golden light",
-                "block_id": 10035,
-                "affected_blocks": [
+                "object_id": 10035,
+                "affected_objects": [
                     "broken_glowstone",
                     "bulbed_glowstone",
                     "cracked_glowstone",
@@ -2777,8 +2777,8 @@
             },
             {
                 "description": "Medium golden light",
-                "block_id": 10036,
-                "affected_blocks": [
+                "object_id": 10036,
+                "affected_objects": [
                     "acacia_torch",
                     "birch_torch",
                     "spruce_torch",
@@ -2788,8 +2788,8 @@
             },
             {
                 "description": "Redstone components",
-                "block_id": 10038,
-                "affected_blocks": [
+                "object_id": 10038,
+                "affected_objects": [
                     "blue_redstone_torch:lit=true",
                     "crimson_redstone_torch:lit=true",
                     "green_redstone_torch:lit=true",
@@ -2799,8 +2799,8 @@
             },
             {
                 "description": "Medium orange light",
-                "block_id": 10040,
-                "affected_blocks": [
+                "object_id": 10040,
+                "affected_objects": [
                     "magma_block_bricks",
                     "magma_block_mini_tiles",
                     "magma_block_pillar",
@@ -2872,8 +2872,8 @@
             },
             {
                 "description": "Jack o' Lantern",
-                "block_id": 10042,
-                "affected_blocks": [
+                "object_id": 10042,
+                "affected_objects": [
                     "anguished_jack_o_lantern",
                     "bad_time_jack_o_lantern",
                     "boo_jack_o_lantern",
@@ -2900,8 +2900,8 @@
             },
             {
                 "description": "Soul lights",
-                "block_id": 10043,
-                "affected_blocks": [
+                "object_id": 10043,
+                "affected_objects": [
                     "blue_paper_soul_lantern",
                     "blue_tube_soul_lantern",
                     "checkered_iron_soul_lantern",
@@ -2921,8 +2921,8 @@
             },
             {
                 "description": "Pink glow",
-                "block_id": 10047,
-                "affected_blocks": [
+                "object_id": 10047,
+                "affected_objects": [
                     "crying_obsidian_bricks",
                     "crying_obsidian_mini_tiles",
                     "crying_obsidian_pillar",
@@ -2993,8 +2993,8 @@
             },
             {
                 "description": "Nether plants",
-                "block_id": 10049,
-                "affected_blocks": [
+                "object_id": 10049,
+                "affected_objects": [
                     "bulbed_crimson_fungus",
                     "button_crimson_fungus",
                     "clustered_crimson_fungus",
@@ -3026,8 +3026,8 @@
             },
             {
                 "description": "Ochre froglight",
-                "block_id": 10051,
-                "affected_blocks": [
+                "object_id": 10051,
+                "affected_objects": [
                     "ad_astra_ochre_froglight",
                     "ancient_ochre_froglight",
                     "barred_ochre_froglight",
@@ -3040,8 +3040,8 @@
             },
             {
                 "description": "Verdant froglight",
-                "block_id": 10052,
-                "affected_blocks": [
+                "object_id": 10052,
+                "affected_objects": [
                     "ad_astra_verdant_froglight",
                     "ancient_verdant_froglight",
                     "barred_verdant_froglight",
@@ -3054,8 +3054,8 @@
             },
             {
                 "description": "Pearlescent froglight",
-                "block_id": 10053,
-                "affected_blocks": [
+                "object_id": 10053,
+                "affected_objects": [
                     "ad_astra_pearlescent_froglight",
                     "ancient_pearlescent_froglight",
                     "barred_pearlescent_froglight",
@@ -3068,8 +3068,8 @@
             },
             {
                 "description": "Redstone block",
-                "block_id": 10058,
-                "affected_blocks": [
+                "object_id": 10058,
+                "affected_objects": [
                     "redstone_block_bricks",
                     "redstone_block_mini_tiles",
                     "redstone_block_pillar",
@@ -3140,8 +3140,8 @@
             },
             {
                 "description": "Tinting Blocks: Red",
-                "block_id": 10064,
-                "affected_blocks": [
+                "object_id": 10064,
+                "affected_objects": [
                     "circular_red_stained_glass",
                     "large_diamond_red_stained_glass",
                     "square_red_stained_glass",
@@ -3168,8 +3168,8 @@
             },
             {
                 "description": "Tinting Blocks: Orange",
-                "block_id": 10065,
-                "affected_blocks": [
+                "object_id": 10065,
+                "affected_objects": [
                     "circular_orange_stained_glass",
                     "large_diamond_orange_stained_glass",
                     "square_orange_stained_glass",
@@ -3196,8 +3196,8 @@
             },
             {
                 "description": "Tinting Blocks: Yellow",
-                "block_id": 10066,
-                "affected_blocks": [
+                "object_id": 10066,
+                "affected_objects": [
                     "circular_yellow_stained_glass",
                     "large_diamond_yellow_stained_glass",
                     "square_yellow_stained_glass",
@@ -3224,8 +3224,8 @@
             },
             {
                 "description": "Tinting Blocks: Brown",
-                "block_id": 10067,
-                "affected_blocks": [
+                "object_id": 10067,
+                "affected_objects": [
                     "circular_brown_stained_glass",
                     "large_diamond_brown_stained_glass",
                     "square_brown_stained_glass",
@@ -3252,8 +3252,8 @@
             },
             {
                 "description": "Tinting Blocks: Green",
-                "block_id": 10068,
-                "affected_blocks": [
+                "object_id": 10068,
+                "affected_objects": [
                     "circular_green_stained_glass",
                     "large_diamond_green_stained_glass",
                     "square_green_stained_glass",
@@ -3280,8 +3280,8 @@
             },
             {
                 "description": "Tinting Blocks: Lime",
-                "block_id": 10069,
-                "affected_blocks": [
+                "object_id": 10069,
+                "affected_objects": [
                     "circular_lime_stained_glass",
                     "large_diamond_lime_stained_glass",
                     "square_lime_stained_glass",
@@ -3308,8 +3308,8 @@
             },
             {
                 "description": "Tinting Blocks: Blue",
-                "block_id": 10070,
-                "affected_blocks": [
+                "object_id": 10070,
+                "affected_objects": [
                     "circular_blue_stained_glass",
                     "large_diamond_blue_stained_glass",
                     "square_blue_stained_glass",
@@ -3336,8 +3336,8 @@
             },
             {
                 "description": "Tinting Blocks: Light blue",
-                "block_id": 10071,
-                "affected_blocks": [
+                "object_id": 10071,
+                "affected_objects": [
                     "circular_light_blue_stained_glass",
                     "large_diamond_light_blue_stained_glass",
                     "square_light_blue_stained_glass",
@@ -3364,8 +3364,8 @@
             },
             {
                 "description": "Tinting Blocks: Cyan",
-                "block_id": 10072,
-                "affected_blocks": [
+                "object_id": 10072,
+                "affected_objects": [
                     "circular_cyan_stained_glass",
                     "large_diamond_cyan_stained_glass",
                     "square_cyan_stained_glass",
@@ -3392,8 +3392,8 @@
             },
             {
                 "description": "Tinting Blocks: Purple",
-                "block_id": 10073,
-                "affected_blocks": [
+                "object_id": 10073,
+                "affected_objects": [
                     "circular_purple_stained_glass",
                     "large_diamond_purple_stained_glass",
                     "square_purple_stained_glass",
@@ -3420,8 +3420,8 @@
             },
             {
                 "description": "Tinting Blocks: Magenta",
-                "block_id": 10074,
-                "affected_blocks": [
+                "object_id": 10074,
+                "affected_objects": [
                     "circular_magenta_stained_glass",
                     "large_diamond_magenta_stained_glass",
                     "square_magenta_stained_glass",
@@ -3448,8 +3448,8 @@
             },
             {
                 "description": "Tinting Blocks: Pink",
-                "block_id": 10075,
-                "affected_blocks": [
+                "object_id": 10075,
+                "affected_objects": [
                     "circular_pink_stained_glass",
                     "large_diamond_pink_stained_glass",
                     "square_pink_stained_glass",
@@ -3476,8 +3476,8 @@
             },
             {
                 "description": "Tinting Blocks: Black",
-                "block_id": 10076,
-                "affected_blocks": [
+                "object_id": 10076,
+                "affected_objects": [
                     "circular_black_stained_glass",
                     "large_diamond_black_stained_glass",
                     "square_black_stained_glass",
@@ -3504,8 +3504,8 @@
             },
             {
                 "description": "Tinting Blocks: White",
-                "block_id": 10077,
-                "affected_blocks": [
+                "object_id": 10077,
+                "affected_objects": [
                     "circular_white_stained_glass",
                     "large_diamond_white_stained_glass",
                     "square_white_stained_glass",
@@ -3532,8 +3532,8 @@
             },
             {
                 "description": "Tinting Blocks: Gray",
-                "block_id": 10078,
-                "affected_blocks": [
+                "object_id": 10078,
+                "affected_objects": [
                     "circular_gray_stained_glass",
                     "large_diamond_gray_stained_glass",
                     "square_gray_stained_glass",
@@ -3560,8 +3560,8 @@
             },
             {
                 "description": "Tinting Blocks: Light gray",
-                "block_id": 10079,
-                "affected_blocks": [
+                "object_id": 10079,
+                "affected_objects": [
                     "circular_light_gray_stained_glass",
                     "large_diamond_light_gray_stained_glass",
                     "square_light_gray_stained_glass",
@@ -3588,8 +3588,8 @@
             },
             {
                 "description": "Tinting Blocks: Transparent",
-                "block_id": 10080,
-                "affected_blocks": [
+                "object_id": 10080,
+                "affected_objects": [
                     "circle_oak_glass",
                     "fancy_leaded_glass",
                     "large_diamond_leaded_glass",
@@ -3638,8 +3638,8 @@
         "item": [
             {
                 "description": "Hardcoded specular - Grass, stone, spruce and dark oak planks",
-                "block_id": 10006,
-                "affected_blocks": [
+                "object_id": 10006,
+                "affected_objects": [
                     "dirt_bricks",
                     "dirt_mini_tiles",
                     "dirt_pillar",
@@ -4464,8 +4464,8 @@
             },
             {
                 "description": "Hardcoded specular - Sand",
-                "block_id": 10007,
-                "affected_blocks": [
+                "object_id": 10007,
+                "affected_objects": [
                     "ash_sand",
                     "coarse_sand",
                     "desert_sand",
@@ -4546,8 +4546,8 @@
             },
             {
                 "description": "Hardcoded specular - Ice",
-                "block_id": 10008,
-                "affected_blocks": [
+                "object_id": 10008,
+                "affected_objects": [
                     "ice_bricks",
                     "ice_mini_tiles",
                     "ice_pillar",
@@ -4750,8 +4750,8 @@
             },
             {
                 "description": "Hardcoded specular - Red sand, birch planks",
-                "block_id": 10009,
-                "affected_blocks": [
+                "object_id": 10009,
+                "affected_objects": [
                     "lush_red_sand",
                     "wet_red_sand",
                     "red_sandstone_bricks",
@@ -4873,8 +4873,8 @@
             },
             {
                 "description": "Hardcoded specular - Oak, jungle and acacia planks, granite and diorite",
-                "block_id": 10010,
-                "affected_blocks": [
+                "object_id": 10010,
+                "affected_objects": [
                     "thin_oak_planks",
                     "tiled_oak_planks",
                     "versailles_oak_planks",
@@ -5134,8 +5134,8 @@
             },
             {
                 "description": "Hardcoded specular - Obsidian, nether bricks",
-                "block_id": 10011,
-                "affected_blocks": [
+                "object_id": 10011,
+                "affected_objects": [
                     "obsidian_bricks",
                     "obsidian_mini_tiles",
                     "obsidian_pillar",
@@ -5272,8 +5272,8 @@
             },
             {
                 "description": "Hardcoded specular - Metals",
-                "block_id": 10012,
-                "affected_blocks": [
+                "object_id": 10012,
+                "affected_objects": [
                     "iron_block_panels",
                     "ancient_iron_block",
                     "chipped_iron_block",
@@ -5362,8 +5362,8 @@
             },
             {
                 "description": "Hardcoded specular - Gems",
-                "block_id": 10013,
-                "affected_blocks": [
+                "object_id": 10013,
+                "affected_objects": [
                     "diamond_block_panels",
                     "ancient_diamond_block",
                     "chipped_diamond_block",
@@ -5586,8 +5586,8 @@
             },
             {
                 "description": "Strong white light",
-                "block_id": 10032,
-                "affected_blocks": [
+                "object_id": 10032,
+                "affected_objects": [
                     "broken_sea_lantern",
                     "bulbed_sea_lantern",
                     "cracked_sea_lantern",
@@ -5608,15 +5608,15 @@
             },
             {
                 "description": "Medium white light",
-                "block_id": 10033,
-                "affected_blocks": [
+                "object_id": 10033,
+                "affected_objects": [
                     "crimson_torch"
                 ]
             },
             {
                 "description": "Strong golden light",
-                "block_id": 10035,
-                "affected_blocks": [
+                "object_id": 10035,
+                "affected_objects": [
                     "broken_glowstone",
                     "bulbed_glowstone",
                     "cracked_glowstone",
@@ -5659,8 +5659,8 @@
             },
             {
                 "description": "Medium golden light",
-                "block_id": 10036,
-                "affected_blocks": [
+                "object_id": 10036,
+                "affected_objects": [
                     "acacia_torch",
                     "birch_torch",
                     "spruce_torch",
@@ -5670,8 +5670,8 @@
             },
             {
                 "description": "Redstone components",
-                "block_id": 10038,
-                "affected_blocks": [
+                "object_id": 10038,
+                "affected_objects": [
                     "blue_redstone_torch",
                     "crimson_redstone_torch",
                     "green_redstone_torch",
@@ -5681,8 +5681,8 @@
             },
             {
                 "description": "Medium orange light",
-                "block_id": 10040,
-                "affected_blocks": [
+                "object_id": 10040,
+                "affected_objects": [
                     "magma_block_bricks",
                     "magma_block_mini_tiles",
                     "magma_block_pillar",
@@ -5754,8 +5754,8 @@
             },
             {
                 "description": "Jack o' Lantern",
-                "block_id": 10042,
-                "affected_blocks": [
+                "object_id": 10042,
+                "affected_objects": [
                     "anguished_jack_o_lantern",
                     "bad_time_jack_o_lantern",
                     "boo_jack_o_lantern",
@@ -5782,8 +5782,8 @@
             },
             {
                 "description": "Soul lights",
-                "block_id": 10043,
-                "affected_blocks": [
+                "object_id": 10043,
+                "affected_objects": [
                     "blue_paper_soul_lantern",
                     "blue_tube_soul_lantern",
                     "checkered_iron_soul_lantern",
@@ -5803,8 +5803,8 @@
             },
             {
                 "description": "Pink glow",
-                "block_id": 10047,
-                "affected_blocks": [
+                "object_id": 10047,
+                "affected_objects": [
                     "crying_obsidian_bricks",
                     "crying_obsidian_mini_tiles",
                     "crying_obsidian_pillar",
@@ -5875,8 +5875,8 @@
             },
             {
                 "description": "Nether plants",
-                "block_id": 10049,
-                "affected_blocks": [
+                "object_id": 10049,
+                "affected_objects": [
                     "bulbed_crimson_fungus",
                     "button_crimson_fungus",
                     "clustered_crimson_fungus",
@@ -5908,8 +5908,8 @@
             },
             {
                 "description": "Ochre froglight",
-                "block_id": 10051,
-                "affected_blocks": [
+                "object_id": 10051,
+                "affected_objects": [
                     "ad_astra_ochre_froglight",
                     "ancient_ochre_froglight",
                     "barred_ochre_froglight",
@@ -5922,8 +5922,8 @@
             },
             {
                 "description": "Verdant froglight",
-                "block_id": 10052,
-                "affected_blocks": [
+                "object_id": 10052,
+                "affected_objects": [
                     "ad_astra_verdant_froglight",
                     "ancient_verdant_froglight",
                     "barred_verdant_froglight",
@@ -5936,8 +5936,8 @@
             },
             {
                 "description": "Pearlescent froglight",
-                "block_id": 10053,
-                "affected_blocks": [
+                "object_id": 10053,
+                "affected_objects": [
                     "ad_astra_pearlescent_froglight",
                     "ancient_pearlescent_froglight",
                     "barred_pearlescent_froglight",
@@ -5950,8 +5950,8 @@
             },
             {
                 "description": "Redstone block",
-                "block_id": 10058,
-                "affected_blocks": [
+                "object_id": 10058,
+                "affected_objects": [
                     "redstone_block_bricks",
                     "redstone_block_mini_tiles",
                     "redstone_block_pillar",

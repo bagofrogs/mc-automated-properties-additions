@@ -7,15 +7,15 @@
         "block": [
             {
                 "description": "Water",
-                "block_id": 10001,
-                "affected_blocks": [
+                "object_id": 10001,
+                "affected_objects": [
                     "water"
                 ]
             },
             {
                 "description": "Small plants",
-                "block_id": 10002,
-                "affected_blocks": [
+                "object_id": 10002,
+                "affected_objects": [
                     "grass",
                     "short_grass",
                     "fern",
@@ -56,8 +56,8 @@
             },
             {
                 "description": "Tall plants (lower half)",
-                "block_id": 10003,
-                "affected_blocks": [
+                "object_id": 10003,
+                "affected_objects": [
                     "sunflower:half=lower",
                     "lilac:half=lower",
                     "tall_grass:half=lower",
@@ -76,8 +76,8 @@
             },
             {
                 "description": "Tall plants (upper half)",
-                "block_id": 10004,
-                "affected_blocks": [
+                "object_id": 10004,
+                "affected_objects": [
                     "sunflower:half=upper",
                     "lilac:half=upper",
                     "tall_grass:half=upper",
@@ -94,8 +94,8 @@
             },
             {
                 "description": "Leaves",
-                "block_id": 10005,
-                "affected_blocks": [
+                "object_id": 10005,
+                "affected_objects": [
                     "oak_leaves",
                     "birch_leaves",
                     "spruce_leaves",
@@ -110,8 +110,8 @@
             },
             {
                 "description": "Hardcoded specular - Grass, stone, spruce and dark oak planks",
-                "block_id": 10006,
-                "affected_blocks": [
+                "object_id": 10006,
+                "affected_objects": [
                     "grass_block",
                     "dirt",
                     "coarse_dirt",
@@ -209,8 +209,8 @@
             },
             {
                 "description": "Hardcoded specular - Sand",
-                "block_id": 10007,
-                "affected_blocks": [
+                "object_id": 10007,
+                "affected_objects": [
                     "sand",
                     "sandstone",
                     "chiseled_sandstone",
@@ -224,8 +224,8 @@
             },
             {
                 "description": "Hardcoded specular - Ice",
-                "block_id": 10008,
-                "affected_blocks": [
+                "object_id": 10008,
+                "affected_objects": [
                     "ice",
                     "blue_ice",
                     "packed_ice"
@@ -233,8 +233,8 @@
             },
             {
                 "description": "Hardcoded specular - Red sand, birch planks",
-                "block_id": 10009,
-                "affected_blocks": [
+                "object_id": 10009,
+                "affected_objects": [
                     "red_sand",
                     "red_sandstone",
                     "chiseled_red_sandstone",
@@ -254,8 +254,8 @@
             },
             {
                 "description": "Hardcoded specular - Oak, jungle and acacia planks, granite and diorite",
-                "block_id": 10010,
-                "affected_blocks": [
+                "object_id": 10010,
+                "affected_objects": [
                     "oak_planks",
                     "oak_slab",
                     "oak_stairs",
@@ -294,8 +294,8 @@
             },
             {
                 "description": "Hardcoded specular - Obsidian, nether bricks",
-                "block_id": 10011,
-                "affected_blocks": [
+                "object_id": 10011,
+                "affected_objects": [
                     "obsidian",
                     "nether_bricks",
                     "cracked_nether_bricks",
@@ -306,8 +306,8 @@
             },
             {
                 "description": "Hardcoded specular - Metals",
-                "block_id": 10012,
-                "affected_blocks": [
+                "object_id": 10012,
+                "affected_objects": [
                     "iron_block",
                     "gold_block",
                     "copper_block",
@@ -316,8 +316,8 @@
             },
             {
                 "description": "Hardcoded specular - Gems",
-                "block_id": 10013,
-                "affected_blocks": [
+                "object_id": 10013,
+                "affected_objects": [
                     "diamond_block",
                     "emerald_block",
                     "lapis_block",
@@ -328,8 +328,8 @@
             },
             {
                 "description": "Strong SSS",
-                "block_id": 10014,
-                "affected_blocks": [
+                "object_id": 10014,
+                "affected_objects": [
                     "sugar_cane",
                     "bamboo",
                     "vine",
@@ -342,8 +342,8 @@
             },
             {
                 "description": "Weak SSS",
-                "block_id": 10015,
-                "affected_blocks": [
+                "object_id": 10015,
+                "affected_objects": [
                     "cobweb",
                     "white_wool",
                     "orange_wool",
@@ -369,23 +369,23 @@
             },
             {
                 "description": "Chorus plant",
-                "block_id": 10016,
-                "affected_blocks": [
+                "object_id": 10016,
+                "affected_objects": [
                     "chorus_plant",
                     "chorus_flower"
                 ]
             },
             {
                 "description": "End stone",
-                "block_id": 10017,
-                "affected_blocks": [
+                "object_id": 10017,
+                "affected_objects": [
                     "end_stone"
                 ]
             },
             {
                 "description": "Transparent metal objects",
-                "block_id": 10018,
-                "affected_blocks": [
+                "object_id": 10018,
+                "affected_objects": [
                     "iron_bars",
                     "iron_door",
                     "iron_trapdoor",
@@ -396,85 +396,85 @@
             },
             {
                 "description": "Warped stem (x axis)",
-                "block_id": 10019,
-                "affected_blocks": [
+                "object_id": 10019,
+                "affected_objects": [
                     "warped_stem:axis=x"
                 ]
             },
             {
                 "description": "Warped stem (y axis)",
-                "block_id": 10020,
-                "affected_blocks": [
+                "object_id": 10020,
+                "affected_objects": [
                     "warped_stem:axis=y"
                 ]
             },
             {
                 "description": "Warped stem (z axis)",
-                "block_id": 10021,
-                "affected_blocks": [
+                "object_id": 10021,
+                "affected_objects": [
                     "warped_stem:axis=z"
                 ]
             },
             {
                 "description": "Warped hyphae",
-                "block_id": 10022,
-                "affected_blocks": [
+                "object_id": 10022,
+                "affected_objects": [
                     "warped_hyphae"
                 ]
             },
             {
                 "description": "Crimson stem (x axis)",
-                "block_id": 10023,
-                "affected_blocks": [
+                "object_id": 10023,
+                "affected_objects": [
                     "crimson_stem:axis=x"
                 ]
             },
             {
                 "description": "Crimson stem (y axis)",
-                "block_id": 10024,
-                "affected_blocks": [
+                "object_id": 10024,
+                "affected_objects": [
                     "crimson_stem:axis=y"
                 ]
             },
             {
                 "description": "Crimson stem (z axis)",
-                "block_id": 10025,
-                "affected_blocks": [
+                "object_id": 10025,
+                "affected_objects": [
                     "crimson_stem:axis=z"
                 ]
             },
             {
                 "description": "Crimson hyphae",
-                "block_id": 10026,
-                "affected_blocks": [
+                "object_id": 10026,
+                "affected_objects": [
                     "crimson_hyphae"
                 ]
             },
             {
                 "description": "Strong white light",
-                "block_id": 10032,
-                "affected_blocks": [
+                "object_id": 10032,
+                "affected_objects": [
                     "sea_lantern"
                 ]
             },
             {
                 "description": "Medium white light",
-                "block_id": 10033,
-                "affected_blocks": [
+                "object_id": 10033,
+                "affected_objects": [
                     "end_rod"
                 ]
             },
             {
                 "description": "Weak white light, transparent",
-                "block_id": 10034,
-                "affected_blocks": [
+                "object_id": 10034,
+                "affected_objects": [
                     "glow_lichen"
                 ]
             },
             {
                 "description": "Strong golden light",
-                "block_id": 10035,
-                "affected_blocks": [
+                "object_id": 10035,
+                "affected_objects": [
                     "glowstone",
                     "lantern",
                     "redstone_lamp:lit=true"
@@ -482,8 +482,8 @@
             },
             {
                 "description": "Medium golden light",
-                "block_id": 10036,
-                "affected_blocks": [
+                "object_id": 10036,
+                "affected_objects": [
                     "torch",
                     "wall_torch",
                     "campfire:lit=true",
@@ -496,16 +496,16 @@
             },
             {
                 "description": "Weak golden light, transparent",
-                "block_id": 10037,
-                "affected_blocks": [
+                "object_id": 10037,
+                "affected_objects": [
                     "cave_vines_plant:berries=true",
                     "cave_vines:berries=true"
                 ]
             },
             {
                 "description": "Redstone components",
-                "block_id": 10038,
-                "affected_blocks": [
+                "object_id": 10038,
+                "affected_objects": [
                     "redstone_torch:lit=true",
                     "redstone_wall_torch:lit=true",
                     "powered_rail:powered=true",
@@ -520,8 +520,8 @@
             },
             {
                 "description": "Lava",
-                "block_id": 10039,
-                "affected_blocks": [
+                "object_id": 10039,
+                "affected_objects": [
                     "lava",
                     "flowing_lava",
                     "lava_cauldron"
@@ -529,8 +529,8 @@
             },
             {
                 "description": "Medium orange light",
-                "block_id": 10040,
-                "affected_blocks": [
+                "object_id": 10040,
+                "affected_objects": [
                     "fire",
                     "magma_block",
                     "shroomlight"
@@ -538,22 +538,22 @@
             },
             {
                 "description": "Brewing stand (medium yellow light)",
-                "block_id": 10041,
-                "affected_blocks": [
+                "object_id": 10041,
+                "affected_objects": [
                     "brewing_stand"
                 ]
             },
             {
                 "description": "Jack o' Lantern",
-                "block_id": 10042,
-                "affected_blocks": [
+                "object_id": 10042,
+                "affected_objects": [
                     "jack_o_lantern"
                 ]
             },
             {
                 "description": "Soul lights",
-                "block_id": 10043,
-                "affected_blocks": [
+                "object_id": 10043,
+                "affected_objects": [
                     "soul_fire",
                     "soul_torch",
                     "soul_wall_torch",
@@ -563,22 +563,22 @@
             },
             {
                 "description": "Beacon",
-                "block_id": 10044,
-                "affected_blocks": [
+                "object_id": 10044,
+                "affected_objects": [
                     "beacon"
                 ]
             },
             {
                 "description": "End portal frame",
-                "block_id": 10045,
-                "affected_blocks": [
+                "object_id": 10045,
+                "affected_objects": [
                     "end_portal_frame:eye=true"
                 ]
             },
             {
                 "description": "Sculk",
-                "block_id": 10046,
-                "affected_blocks": [
+                "object_id": 10046,
+                "affected_objects": [
                     "sculk",
                     "sculk_vein",
                     "sculk_catalyst",
@@ -589,8 +589,8 @@
             },
             {
                 "description": "Pink glow",
-                "block_id": 10047,
-                "affected_blocks": [
+                "object_id": 10047,
+                "affected_objects": [
                     "spawner",
                     "dragon_head",
                     "dragon_wall_head",
@@ -599,15 +599,15 @@
             },
             {
                 "description": "Sea pickle (green glow)",
-                "block_id": 10048,
-                "affected_blocks": [
+                "object_id": 10048,
+                "affected_objects": [
                     "sea_pickle:waterlogged=true"
                 ]
             },
             {
                 "description": "Nether plants",
-                "block_id": 10049,
-                "affected_blocks": [
+                "object_id": 10049,
+                "affected_objects": [
                     "crimson_fungus",
                     "warped_fungus",
                     "potted_crimson_fungus",
@@ -616,8 +616,8 @@
             },
             {
                 "description": "Candles",
-                "block_id": 10050,
-                "affected_blocks": [
+                "object_id": 10050,
+                "affected_objects": [
                     "candle:lit=true",
                     "white_candle:lit=true",
                     "orange_candle:lit=true",
@@ -639,36 +639,36 @@
             },
             {
                 "description": "Ochre froglight",
-                "block_id": 10051,
-                "affected_blocks": [
+                "object_id": 10051,
+                "affected_objects": [
                     "ochre_froglight"
                 ]
             },
             {
                 "description": "Verdant froglight",
-                "block_id": 10052,
-                "affected_blocks": [
+                "object_id": 10052,
+                "affected_objects": [
                     "verdant_froglight"
                 ]
             },
             {
                 "description": "Pearlescent froglight",
-                "block_id": 10053,
-                "affected_blocks": [
+                "object_id": 10053,
+                "affected_objects": [
                     "pearlescent_froglight"
                 ]
             },
             {
                 "description": "Enchanting table (medium pink light)",
-                "block_id": 10054,
-                "affected_blocks": [
+                "object_id": 10054,
+                "affected_objects": [
                     "enchanting_table"
                 ]
             },
             {
                 "description": "Amethyst cluster",
-                "block_id": 10055,
-                "affected_blocks": [
+                "object_id": 10055,
+                "affected_objects": [
                     "small_amethyst_bud",
                     "medium_amethyst_bud",
                     "large_amethyst_bud",
@@ -677,54 +677,54 @@
             },
             {
                 "description": "Calibrated sculk sensor",
-                "block_id": 10056,
-                "affected_blocks": [
+                "object_id": 10056,
+                "affected_objects": [
                     "calibrated_sculk_sensor:sculk_sensor_phase=inactive",
                     "calibrated_sculk_sensor:sculk_sensor_phase=cooldown"
                 ]
             },
             {
                 "description": "Active sculk sensor",
-                "block_id": 10057,
-                "affected_blocks": [
+                "object_id": 10057,
+                "affected_objects": [
                     "calibrated_sculk_sensor:sculk_sensor_phase=active",
                     "sculk_sensor:sculk_sensor_phase=active"
                 ]
             },
             {
                 "description": "Redstone block",
-                "block_id": 10058,
-                "affected_blocks": [
+                "object_id": 10058,
+                "affected_objects": [
                     "redstone_block"
                 ]
             },
             {
                 "description": "Nether portal",
-                "block_id": 10062,
-                "affected_blocks": [
+                "object_id": 10062,
+                "affected_objects": [
                     "nether_portal"
                 ]
             },
             {
                 "description": "End portal",
-                "block_id": 10063,
-                "affected_blocks": [
+                "object_id": 10063,
+                "affected_objects": [
                     "end_portal",
                     "end_gateway"
                 ]
             },
             {
                 "description": "Tinting Blocks: Red",
-                "block_id": 10064,
-                "affected_blocks": [
+                "object_id": 10064,
+                "affected_objects": [
                     "red_stained_glass",
                     "red_stained_glass_pane"
                 ]
             },
             {
                 "description": "Tinting Blocks: Orange",
-                "block_id": 10065,
-                "affected_blocks": [
+                "object_id": 10065,
+                "affected_objects": [
                     "orange_stained_glass",
                     "orange_stained_glass_pane",
                     "honey_block"
@@ -732,32 +732,32 @@
             },
             {
                 "description": "Tinting Blocks: Yellow",
-                "block_id": 10066,
-                "affected_blocks": [
+                "object_id": 10066,
+                "affected_objects": [
                     "yellow_stained_glass",
                     "yellow_stained_glass_pane"
                 ]
             },
             {
                 "description": "Tinting Blocks: Brown",
-                "block_id": 10067,
-                "affected_blocks": [
+                "object_id": 10067,
+                "affected_objects": [
                     "brown_stained_glass",
                     "brown_stained_glass_pane"
                 ]
             },
             {
                 "description": "Tinting Blocks: Green",
-                "block_id": 10068,
-                "affected_blocks": [
+                "object_id": 10068,
+                "affected_objects": [
                     "green_stained_glass",
                     "green_stained_glass_pane"
                 ]
             },
             {
                 "description": "Tinting Blocks: Lime",
-                "block_id": 10069,
-                "affected_blocks": [
+                "object_id": 10069,
+                "affected_objects": [
                     "lime_stained_glass",
                     "lime_stained_glass_pane",
                     "slime_block"
@@ -765,56 +765,56 @@
             },
             {
                 "description": "Tinting Blocks: Blue",
-                "block_id": 10070,
-                "affected_blocks": [
+                "object_id": 10070,
+                "affected_objects": [
                     "blue_stained_glass",
                     "blue_stained_glass_pane"
                 ]
             },
             {
                 "description": "Tinting Blocks: Light blue",
-                "block_id": 10071,
-                "affected_blocks": [
+                "object_id": 10071,
+                "affected_objects": [
                     "light_blue_stained_glass",
                     "light_blue_stained_glass_pane"
                 ]
             },
             {
                 "description": "Tinting Blocks: Cyan",
-                "block_id": 10072,
-                "affected_blocks": [
+                "object_id": 10072,
+                "affected_objects": [
                     "cyan_stained_glass",
                     "cyan_stained_glass_pane"
                 ]
             },
             {
                 "description": "Tinting Blocks: Purple",
-                "block_id": 10073,
-                "affected_blocks": [
+                "object_id": 10073,
+                "affected_objects": [
                     "purple_stained_glass",
                     "purple_stained_glass_pane"
                 ]
             },
             {
                 "description": "Tinting Blocks: Magenta",
-                "block_id": 10074,
-                "affected_blocks": [
+                "object_id": 10074,
+                "affected_objects": [
                     "magenta_stained_glass",
                     "magenta_stained_glass_pane"
                 ]
             },
             {
                 "description": "Tinting Blocks: Pink",
-                "block_id": 10075,
-                "affected_blocks": [
+                "object_id": 10075,
+                "affected_objects": [
                     "pink_stained_glass",
                     "pink_stained_glass_pane"
                 ]
             },
             {
                 "description": "Tinting Blocks: Black",
-                "block_id": 10076,
-                "affected_blocks": [
+                "object_id": 10076,
+                "affected_objects": [
                     "black_stained_glass",
                     "black_stained_glass_pane",
                     "tinted_glass"
@@ -822,32 +822,32 @@
             },
             {
                 "description": "Tinting Blocks: White",
-                "block_id": 10077,
-                "affected_blocks": [
+                "object_id": 10077,
+                "affected_objects": [
                     "white_stained_glass",
                     "white_stained_glass_pane"
                 ]
             },
             {
                 "description": "Tinting Blocks: Gray",
-                "block_id": 10078,
-                "affected_blocks": [
+                "object_id": 10078,
+                "affected_objects": [
                     "gray_stained_glass",
                     "gray_stained_glass_pane"
                 ]
             },
             {
                 "description": "Tinting Blocks: Light gray",
-                "block_id": 10079,
-                "affected_blocks": [
+                "object_id": 10079,
+                "affected_objects": [
                     "light_gray_stained_glass",
                     "light_gray_stained_glass_pane"
                 ]
             },
             {
                 "description": "Tinting Blocks: Transparent",
-                "block_id": 10080,
-                "affected_blocks": [
+                "object_id": 10080,
+                "affected_objects": [
                     "snow",
                     "redstone_wire",
                     "string",
@@ -1091,8 +1091,8 @@
         "item": [
             {
                 "description": "Hardcoded specular - Grass, stone, spruce and dark oak planks",
-                "block_id": 10006,
-                "affected_blocks": [
+                "object_id": 10006,
+                "affected_objects": [
                     "grass_block",
                     "dirt",
                     "coarse_dirt",
@@ -1188,8 +1188,8 @@
             },
             {
                 "description": "Hardcoded specular - Sand",
-                "block_id": 10007,
-                "affected_blocks": [
+                "object_id": 10007,
+                "affected_objects": [
                     "sand",
                     "sandstone",
                     "chiseled_sandstone",
@@ -1203,8 +1203,8 @@
             },
             {
                 "description": "Hardcoded specular - Ice",
-                "block_id": 10008,
-                "affected_blocks": [
+                "object_id": 10008,
+                "affected_objects": [
                     "ice",
                     "blue_ice",
                     "packed_ice"
@@ -1212,8 +1212,8 @@
             },
             {
                 "description": "Hardcoded specular - Red sand, birch planks",
-                "block_id": 10009,
-                "affected_blocks": [
+                "object_id": 10009,
+                "affected_objects": [
                     "red_sand",
                     "red_sandstone",
                     "chiseled_red_sandstone",
@@ -1233,8 +1233,8 @@
             },
             {
                 "description": "Hardcoded specular - Oak, jungle and acacia planks, granite and diorite",
-                "block_id": 10010,
-                "affected_blocks": [
+                "object_id": 10010,
+                "affected_objects": [
                     "oak_planks",
                     "oak_slab",
                     "oak_stairs",
@@ -1273,8 +1273,8 @@
             },
             {
                 "description": "Hardcoded specular - Obsidian, nether bricks",
-                "block_id": 10011,
-                "affected_blocks": [
+                "object_id": 10011,
+                "affected_objects": [
                     "obsidian",
                     "nether_bricks",
                     "cracked_nether_bricks",
@@ -1285,8 +1285,8 @@
             },
             {
                 "description": "Hardcoded specular - Metals",
-                "block_id": 10012,
-                "affected_blocks": [
+                "object_id": 10012,
+                "affected_objects": [
                     "iron_block",
                     "gold_block",
                     "copper_block",
@@ -1295,8 +1295,8 @@
             },
             {
                 "description": "Hardcoded specular - Gems",
-                "block_id": 10013,
-                "affected_blocks": [
+                "object_id": 10013,
+                "affected_objects": [
                     "diamond_block",
                     "emerald_block",
                     "lapis_block",
@@ -1307,37 +1307,37 @@
             },
             {
                 "description": "Strong white light",
-                "block_id": 10032,
-                "affected_blocks": [
+                "object_id": 10032,
+                "affected_objects": [
                     "sea_lantern"
                 ]
             },
             {
                 "description": "Medium white light",
-                "block_id": 10033,
-                "affected_blocks": [
+                "object_id": 10033,
+                "affected_objects": [
                     "end_rod"
                 ]
             },
             {
                 "description": "Weak white light, transparent",
-                "block_id": 10034,
-                "affected_blocks": [
+                "object_id": 10034,
+                "affected_objects": [
                     "glow_lichen"
                 ]
             },
             {
                 "description": "Strong golden light",
-                "block_id": 10035,
-                "affected_blocks": [
+                "object_id": 10035,
+                "affected_objects": [
                     "glowstone",
                     "lantern"
                 ]
             },
             {
                 "description": "Medium golden light",
-                "block_id": 10036,
-                "affected_blocks": [
+                "object_id": 10036,
+                "affected_objects": [
                     "torch",
                     "wall_torch",
                     "campfire",
@@ -1346,29 +1346,29 @@
             },
             {
                 "description": "Weak golden light, transparent",
-                "block_id": 10037,
-                "affected_blocks": [
+                "object_id": 10037,
+                "affected_objects": [
                     "glow_berries"
                 ]
             },
             {
                 "description": "Redstone components",
-                "block_id": 10038,
-                "affected_blocks": [
+                "object_id": 10038,
+                "affected_objects": [
                     "redstone_torch"
                 ]
             },
             {
                 "description": "Lava",
-                "block_id": 10039,
-                "affected_blocks": [
+                "object_id": 10039,
+                "affected_objects": [
                     "lava_bucket"
                 ]
             },
             {
                 "description": "Medium orange light",
-                "block_id": 10040,
-                "affected_blocks": [
+                "object_id": 10040,
+                "affected_objects": [
                     "fire",
                     "magma_block",
                     "shroomlight"
@@ -1376,22 +1376,22 @@
             },
             {
                 "description": "Brewing stand",
-                "block_id": 10041,
-                "affected_blocks": [
+                "object_id": 10041,
+                "affected_objects": [
                     "brewing_stand"
                 ]
             },
             {
                 "description": "Jack o' Lantern",
-                "block_id": 10042,
-                "affected_blocks": [
+                "object_id": 10042,
+                "affected_objects": [
                     "jack_o_lantern"
                 ]
             },
             {
                 "description": "Soul lights",
-                "block_id": 10043,
-                "affected_blocks": [
+                "object_id": 10043,
+                "affected_objects": [
                     "soul_fire",
                     "soul_torch",
                     "soul_lantern",
@@ -1400,22 +1400,22 @@
             },
             {
                 "description": "Beacon",
-                "block_id": 10044,
-                "affected_blocks": [
+                "object_id": 10044,
+                "affected_objects": [
                     "beacon"
                 ]
             },
             {
                 "description": "End portal frame (greenish glow)",
-                "block_id": 10045,
-                "affected_blocks": [
+                "object_id": 10045,
+                "affected_objects": [
                     "ender_eye"
                 ]
             },
             {
                 "description": "Sculk",
-                "block_id": 10046,
-                "affected_blocks": [
+                "object_id": 10046,
+                "affected_objects": [
                     "sculk",
                     "sculk_vein",
                     "sculk_catalyst",
@@ -1425,8 +1425,8 @@
             },
             {
                 "description": "Pink glow",
-                "block_id": 10047,
-                "affected_blocks": [
+                "object_id": 10047,
+                "affected_objects": [
                     "spawner",
                     "dragon_head",
                     "crying_obsidian"
@@ -1434,23 +1434,23 @@
             },
             {
                 "description": "Sea pickle",
-                "block_id": 10048,
-                "affected_blocks": [
+                "object_id": 10048,
+                "affected_objects": [
                     "sea_pickle"
                 ]
             },
             {
                 "description": "Nether plants",
-                "block_id": 10049,
-                "affected_blocks": [
+                "object_id": 10049,
+                "affected_objects": [
                     "crimson_fungus",
                     "warped_fungus"
                 ]
             },
             {
                 "description": "Candles",
-                "block_id": 10050,
-                "affected_blocks": [
+                "object_id": 10050,
+                "affected_objects": [
                     "candle",
                     "white_candle",
                     "orange_candle",
@@ -1472,36 +1472,36 @@
             },
             {
                 "description": "Ochre froglight",
-                "block_id": 10051,
-                "affected_blocks": [
+                "object_id": 10051,
+                "affected_objects": [
                     "ochre_froglight"
                 ]
             },
             {
                 "description": "Verdant froglight",
-                "block_id": 10052,
-                "affected_blocks": [
+                "object_id": 10052,
+                "affected_objects": [
                     "verdant_froglight"
                 ]
             },
             {
                 "description": "Pearlescent froglight",
-                "block_id": 10053,
-                "affected_blocks": [
+                "object_id": 10053,
+                "affected_objects": [
                     "pearlescent_froglight"
                 ]
             },
             {
                 "description": "Enchanting table",
-                "block_id": 10054,
-                "affected_blocks": [
+                "object_id": 10054,
+                "affected_objects": [
                     "enchanting_table"
                 ]
             },
             {
                 "description": "Amethyst cluster",
-                "block_id": 10055,
-                "affected_blocks": [
+                "object_id": 10055,
+                "affected_objects": [
                     "small_amethyst_bud",
                     "medium_amethyst_bud",
                     "large_amethyst_bud",
@@ -1510,22 +1510,22 @@
             },
             {
                 "description": "Redstone block",
-                "block_id": 10058,
-                "affected_blocks": [
+                "object_id": 10058,
+                "affected_objects": [
                     "redstone_block"
                 ]
             },
             {
                 "description": "Nether portal",
-                "block_id": 10062,
-                "affected_blocks": [
+                "object_id": 10062,
+                "affected_objects": [
                     "nether_portal"
                 ]
             },
             {
                 "description": "End portal",
-                "block_id": 10063,
-                "affected_blocks": [
+                "object_id": 10063,
+                "affected_objects": [
                     "end_portal",
                     "end_gateway"
                 ]
@@ -1534,8 +1534,8 @@
         "entity": [
             {
                 "description": "Weak SSS",
-                "block_id": 10015,
-                "affected_blocks": [
+                "object_id": 10015,
+                "affected_objects": [
                     "cow",
                     "pig",
                     "sheep",
@@ -1546,24 +1546,24 @@
             },
             {
                 "description": "Medium full emissives",
-                "block_id": 10033,
-                "affected_blocks": [
+                "object_id": 10033,
+                "affected_objects": [
                     "vex",
                     "allay"
                 ]
             },
             {
                 "description": "Dim full emissives",
-                "block_id": 10034,
-                "affected_blocks": [
+                "object_id": 10034,
+                "affected_objects": [
                     "blaze",
                     "glow_item_frame"
                 ]
             },
             {
                 "description": "Partial emissives",
-                "block_id": 10036,
-                "affected_blocks": [
+                "object_id": 10036,
+                "affected_objects": [
                     "magma_cube",
                     "drowned",
                     "glow_squid"
@@ -1571,44 +1571,44 @@
             },
             {
                 "description": "Sculk",
-                "block_id": 10046,
-                "affected_blocks": [
+                "object_id": 10046,
+                "affected_objects": [
                     "warden"
                 ]
             },
             {
                 "description": "Pink glow",
-                "block_id": 10047,
-                "affected_blocks": [
+                "object_id": 10047,
+                "affected_objects": [
                     "end_crystal"
                 ]
             },
             {
                 "description": "Item",
-                "block_id": 10100,
-                "affected_blocks": [
+                "object_id": 10100,
+                "affected_objects": [
                     "item"
                 ]
             },
             {
                 "description": "Boats",
-                "block_id": 10101,
-                "affected_blocks": [
+                "object_id": 10101,
+                "affected_objects": [
                     "boat",
                     "chest_boat"
                 ]
             },
             {
                 "description": "Lightning bolt",
-                "block_id": 10102,
-                "affected_blocks": [
+                "object_id": 10102,
+                "affected_objects": [
                     "lightning_bolt"
                 ]
             },
             {
                 "description": "Stained glass and slime",
-                "block_id": 10064,
-                "affected_blocks": [
+                "object_id": 10064,
+                "affected_objects": [
                     "slime"
                 ]
             }

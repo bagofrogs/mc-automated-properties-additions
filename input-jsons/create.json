@@ -7,24 +7,24 @@
         "block": [
             {
                 "description": "Water",
-                "block_id": 10001,
-                "affected_blocks": [
+                "object_id": 10001,
+                "affected_objects": [
                     "honey",
                     "chocolate"
                 ]
             },
             {
                 "description": "Hardcoded specular - Grass, stone, spruce and dark oak planks",
-                "block_id": 10006,
-                "affected_blocks": [
+                "object_id": 10006,
+                "affected_objects": [
                     "zinc_ore",
                     "deepslate_zinc_ore"
                 ]
             },
             {
                 "description": "Hardcoded specular - Oak, jungle and acacia planks, granite and diorite",
-                "block_id": 10010,
-                "affected_blocks": [
+                "object_id": 10010,
+                "affected_objects": [
                     "cut_granite",
                     "cut_granite_stairs",
                     "cut_granite_slab",
@@ -50,13 +50,13 @@
             },
             {
                 "description": "Hardcoded specular - Obsidian, nether bricks",
-                "block_id": 10011,
-                "affected_blocks": []
+                "object_id": 10011,
+                "affected_objects": []
             },
             {
                 "description": "Hardcoded specular - Metals",
-                "block_id": 10012,
-                "affected_blocks": [
+                "object_id": 10012,
+                "affected_objects": [
                     "zinc_block",
                     "brass_block",
                     "industrial_iron_block",
@@ -65,21 +65,21 @@
             },
             {
                 "description": "Hardcoded specular - Gems",
-                "block_id": 10013,
-                "affected_blocks": []
+                "object_id": 10013,
+                "affected_objects": []
             },
             {
                 "description": "Strong SSS",
-                "block_id": 10014,
-                "affected_blocks": [
+                "object_id": 10014,
+                "affected_objects": [
                     "birch_window",
                     "birch_window_pane"
                 ]
             },
             {
                 "description": "Weak SSS",
-                "block_id": 10015,
-                "affected_blocks": [
+                "object_id": 10015,
+                "affected_objects": [
                     "white_sail",
                     "orange_sail",
                     "red_sail",
@@ -100,8 +100,8 @@
             },
             {
                 "description": "Transparent metal objects",
-                "block_id": 10018,
-                "affected_blocks": [
+                "object_id": 10018,
+                "affected_objects": [
                     "shaft",
                     "cogwheel",
                     "large_cogwheel",
@@ -121,43 +121,43 @@
             },
             {
                 "description": "Strong white light",
-                "block_id": 10032,
-                "affected_blocks": [
+                "object_id": 10032,
+                "affected_objects": [
                     "sea_lantern"
                 ]
             },
             {
                 "description": "Medium white light",
-                "block_id": 10033,
-                "affected_blocks": [
+                "object_id": 10033,
+                "affected_objects": [
                     "end_rod"
                 ]
             },
             {
                 "description": "Weak white light, transparent",
-                "block_id": 10034,
-                "affected_blocks": [
+                "object_id": 10034,
+                "affected_objects": [
                     "glow_lichen"
                 ]
             },
             {
                 "description": "Strong golden light",
-                "block_id": 10035,
-                "affected_blocks": [
+                "object_id": 10035,
+                "affected_objects": [
                     "redstone_lamp:lit=true"
                 ]
             },
             {
                 "description": "Weak golden light, transparent",
-                "block_id": 10037,
-                "affected_blocks": [
+                "object_id": 10037,
+                "affected_objects": [
                     "nixie_tube"
                 ]
             },
             {
                 "description": "Redstone components",
-                "block_id": 10038,
-                "affected_blocks": [
+                "object_id": 10038,
+                "affected_objects": [
                     "smart_chute:powered=true",
                     "controller_rail:power>0",
                     "adjustable_chain_gearshift:powered=true",
@@ -176,37 +176,37 @@
             },
             {
                 "description": "Lava",
-                "block_id": 10039,
-                "affected_blocks": [
+                "object_id": 10039,
+                "affected_objects": [
                     "blaze_burner:blaze=kindled",
                     "fluid_tank:light_level=12"
                 ]
             },
             {
                 "description": "Medium orange light",
-                "block_id": 10040,
-                "affected_blocks": [
+                "object_id": 10040,
+                "affected_objects": [
                     "rose_quartz_lamp:powering=true"
                 ]
             },
             {
                 "description": "Brewing stand (medium yellow light)",
-                "block_id": 10041,
-                "affected_blocks": [
+                "object_id": 10041,
+                "affected_objects": [
                     "blaze_burner:blaze=smouldering"
                 ]
             },
             {
                 "description": "Soul lights",
-                "block_id": 10043,
-                "affected_blocks": [
+                "object_id": 10043,
+                "affected_objects": [
                     "blaze_burner:blaze=seething"
                 ]
             },
             {
                 "description": "Pink glow",
-                "block_id": 10047,
-                "affected_blocks": [
+                "object_id": 10047,
+                "affected_objects": [
                     "rose_quartz_block",
                     "rose_quartz_tiles",
                     "small_rose_quartz_tiles"
@@ -214,23 +214,23 @@
             },
             {
                 "description": "Sea pickle (green glow)",
-                "block_id": 10048,
-                "affected_blocks": [
+                "object_id": 10048,
+                "affected_objects": [
                     "experience_nugget",
                     "experience_block"
                 ]
             },
             {
                 "description": "Enchanting table (medium pink light)",
-                "block_id": 10054,
-                "affected_blocks": [
+                "object_id": 10054,
+                "affected_objects": [
                     "enchanting_table"
                 ]
             },
             {
                 "description": "Amethyst cluster",
-                "block_id": 10055,
-                "affected_blocks": [
+                "object_id": 10055,
+                "affected_objects": [
                     "small_amethyst_bud",
                     "medium_amethyst_bud",
                     "large_amethyst_bud",
@@ -239,24 +239,24 @@
             },
             {
                 "description": "Calibrated sculk sensor",
-                "block_id": 10056,
-                "affected_blocks": [
+                "object_id": 10056,
+                "affected_objects": [
                     "calibrated_sculk_sensor:sculk_sensor_phase=inactive",
                     "calibrated_sculk_sensor:sculk_sensor_phase=cooldown"
                 ]
             },
             {
                 "description": "Active sculk sensor",
-                "block_id": 10057,
-                "affected_blocks": [
+                "object_id": 10057,
+                "affected_objects": [
                     "calibrated_sculk_sensor:sculk_sensor_phase=active",
                     "sculk_sensor:sculk_sensor_phase=active"
                 ]
             },
             {
                 "description": "Tinting Blocks: Transparent",
-                "block_id": 10080,
-                "affected_blocks": [
+                "object_id": 10080,
+                "affected_objects": [
                     "framed_glass_door",
                     "framed_glass_trapdoor",
                     "framed_glass",
@@ -306,8 +306,8 @@
         "item": [
             {
                 "description": "Pink glow",
-                "block_id": 10047,
-                "affected_blocks": [
+                "object_id": 10047,
+                "affected_objects": [
                     "rose_quartz_block",
                     "rose_quartz_tiles",
                     "small_rose_quartz_tiles",
@@ -318,8 +318,8 @@
             },
             {
                 "description": "Sea pickle (green glow)",
-                "block_id": 10048,
-                "affected_blocks": [
+                "object_id": 10048,
+                "affected_objects": [
                     "experience_nugget"
                 ]
             }

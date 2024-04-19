@@ -8,8 +8,8 @@
         "block": [
             {
                 "description": "Pink glow",
-                "block_id": 10047,
-                "affected_blocks": [
+                "object_id": 10047,
+                "affected_objects": [
                     "waystone:active=true",
                     "blackstone_brick_waystone:active=true",
                     "desert_waystone:active=true",

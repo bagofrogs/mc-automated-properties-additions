@@ -19,7 +19,7 @@ def loader() -> dict:
         current_mod_id = json_data["id"]
         for object_type in json_data["data"]: # item/entity/block
             for object in json_data["data"][object_type]: # dictionaries with an id and affected blocks
-                object["affected_blocks"] = [current_mod_id+":" + e for e in object["affected_blocks"]] # add mod id in front of block ids
+                object["affected_objects"] = [current_mod_id+":" + e for e in object["affected_objects"]] # add mod id in front of block ids
         data_dict[filename] = json_data["data"]
     return data_dict
 
@@ -41,7 +41,7 @@ def description_obtainer(vanilla_data: dict) -> dict:
     for block_type in vanilla_data: # block/item/entity
         description_data[block_type] = {} # instantiate the different dictionaries per block type
         for object in vanilla_data[block_type]:
-            description_data[block_type][object["block_id"]] = object["description"]
+            description_data[block_type][object["object_id"]] = object["description"]
     return description_data
 
 def merger(data_dict: dict) -> dict:
@@ -52,8 +52,8 @@ def merger(data_dict: dict) -> dict:
             "chipped": {
                 "block": [
                     "description": "blabla",
-                    "block_id": 12345,
-                    "affected_blocks": "mod:block",
+                    "object_id": 12345,
+                    "affected_objects": "mod:block",
                 ]
             }
 
@@ -68,9 +68,9 @@ def merger(data_dict: dict) -> dict:
     for file_key in data_dict: # filename minus .json
         for object_type in data_dict[file_key]: # block, item, entity
             for object in data_dict[file_key][object_type]: # the actual object with description, block_id, affected_blocks
-                current_object_id = object["block_id"] # the ID of the current block. ex: 10032.
-                current_affected_blocks = object["affected_blocks"] # the list of blocks in the current structure
-                current_object_id = object["block_id"] # the ID of the current block. ex: 10032.
+                current_object_id = object["object_id"] # the ID of the current block. ex: 10032.
+                current_affected_blocks = object["affected_objects"] # the list of blocks in the current structure
+                current_object_id = object["object_id"] # the ID of the current block. ex: 10032.
                 if current_object_id not in merged_dict[object_type]:
                     merged_dict[object_type][current_object_id] = []
                 full_object_id_list = current_affected_blocks # if they are from vanilla minecraft, no need to add any mod ID in front
