@@ -1,7 +1,7 @@
 {
-    "name": "Runes",
-    "description": "A mod that adds magical runes",
-    "id": "runes",
+    "name": "Wizards (RPG Series)",
+    "description": "A mod that adds wands, spells, and pointy hats",
+    "id": "wizards",
     "version": "",
     "data": {
         "item": [
