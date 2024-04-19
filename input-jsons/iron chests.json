@@ -1,0 +1,43 @@
+{
+    "name": "Iron Chests",
+    "description": "A mod that adds multiple new chest types with extra storage",
+    "id": "ironchest",
+    "version": "",
+    "comments": "",
+    "data": {
+        "block": [
+            {
+                "description": "Hardcoded specular - Obsidian, nether bricks",
+                "block_id": 10011,
+                "affected_blocks": [
+                    "obsidian_chest",
+                    "netherite_chest"
+                ]
+            },
+            {
+                "description": "Hardcoded specular - Metals",
+                "block_id": 10012,
+                "affected_blocks": [
+                    "iron_chest",
+                    "copper_chest",
+                    "gold_chest"
+                ]
+            },
+            {
+                "description": "Hardcoded specular - Gems",
+                "block_id": 10013,
+                "affected_blocks": [
+                    "diamond_chest",
+                    "emerald_chest"
+                ]
+            },
+            {
+                "description": "Tinting Blocks: Transparent",
+                "block_id": 10080,
+                "affected_blocks": [
+                    "crystal_chest"
+                ]
+            }
+        ]
+    }
+}
