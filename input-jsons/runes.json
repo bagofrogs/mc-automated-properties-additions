@@ -1,53 +1,59 @@
 {
-    "item": [
-        {
-            "description": "Medium white light",
-            "block_id": 10033,
-            "affected_blocks": [
-                "frost_stone"
-            ]
-        },
-        {
-            "description": "Medium golden light",
-            "block_id": 10036,
-            "affected_blocks": [
-                "fire_stone"
-            ]
-        },
-        {
-            "description": "Soul lights",
-            "block_id": 10043,
-            "affected_blocks": [
-                "soul_stone"
-            ]
-        },
-        {
-            "description": "Medium orange light",
-            "block_id": 10040,
-            "affected_blocks": [
-                "fire_stone"
-            ]
-        },
-        {
-            "description": "Brewing stand (medium yellow light)",
-            "block_id": 10041,
-            "affected_blocks": [
-                "lightning_stone"
-            ]
-        },
-        {
-            "description": "Pink glow",
-            "block_id": 10047,
-            "affected_blocks": [
-                "arcane_stone"
-            ]
-        },
-        {
-            "description": "Sea pickle (green glow)",
-            "block_id": 10048,
-            "affected_blocks": [
-                "healing_stone"
-            ]
-        }
-    ]
+    "name": "Runes",
+    "description": "A mod that adds magical runes",
+    "id": "runes",
+    "version": "",
+    "data": {
+        "item": [
+            {
+                "description": "Medium white light",
+                "block_id": 10033,
+                "affected_blocks": [
+                    "frost_stone"
+                ]
+            },
+            {
+                "description": "Medium golden light",
+                "block_id": 10036,
+                "affected_blocks": [
+                    "fire_stone"
+                ]
+            },
+            {
+                "description": "Soul lights",
+                "block_id": 10043,
+                "affected_blocks": [
+                    "soul_stone"
+                ]
+            },
+            {
+                "description": "Medium orange light",
+                "block_id": 10040,
+                "affected_blocks": [
+                    "fire_stone"
+                ]
+            },
+            {
+                "description": "Brewing stand (medium yellow light)",
+                "block_id": 10041,
+                "affected_blocks": [
+                    "lightning_stone"
+                ]
+            },
+            {
+                "description": "Pink glow",
+                "block_id": 10047,
+                "affected_blocks": [
+                    "arcane_stone"
+                ]
+            },
+            {
+                "description": "Sea pickle (green glow)",
+                "block_id": 10048,
+                "affected_blocks": [
+                    "healing_stone"
+                ]
+            }
+        ]
+    }
 }

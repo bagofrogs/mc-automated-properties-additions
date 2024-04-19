@@ -1,18 +1,24 @@
 {
-    "block": [
-        {
-            "description": "Water",
-            "block_id": 10001,
-            "affected_blocks": [
-                "fertilizer"
-            ]
-        },
-        {
-            "description": "Transparent metal objects",
-            "block_id": 10018,
-            "affected_blocks": [
-                "sprinkler"
-            ]
-        }
-    ]
+    "name": "Create: Slice & Dice",
+    "description": "A mod that adds automated cooking recipes from Farmer's Delight to Create machinery",
+    "id": "sliceanddice",
+    "version": "",
+    "data": {
+        "block": [
+            {
+                "description": "Water",
+                "block_id": 10001,
+                "affected_blocks": [
+                    "fertilizer"
+                ]
+            },
+            {
+                "description": "Transparent metal objects",
+                "block_id": 10018,
+                "affected_blocks": [
+                    "sprinkler"
+                ]
+            }
+        ]
+    }
 }

@@ -13,11 +13,19 @@ def loader() -> dict:
         if ".json" not in file or file == "template.json": # ignore non json files
             continue
         filename = file[:file.find(".json")] # cut off the .json
-        data_dict[filename] = load(open("./input-jsons/" + file)) # load json from file into a python dict
+        json_data = load(open("./input-jsons/" + file)) # load json from file into a python dict
+        # add mod ID to block IDs
+        print("Loading data from " + json_data["name"])
+        current_mod_id = json_data["id"]
+        for object_type in json_data["data"]: # item/entity/block
+            for object in json_data["data"][object_type]: # dictionaries with an id and affected blocks
+                current_affected_blocks = object["affected_blocks"]
+                object["affected_blocks"] = [current_mod_id+":" + e for e in object["affected_blocks"]] # add mod id in front of block ids
+        data_dict[filename] = json_data["data"]
     return data_dict
 
 def description_obtainer(vanilla_data: dict) -> dict:
-    """Takes a dictionary of vanilla values and returns a dict
+    """Takes a dictionary of vanilla values and returns a dict containing the descriptions for each block ID
 
     Args:
         vanilla_data (dict): the vanilla json in python dictionary format
@@ -66,10 +74,7 @@ def merger(data_dict: dict) -> dict:
                 current_object_id = object["block_id"] # the ID of the current block. ex: 10032.
                 if current_object_id not in merged_dict[object_type]:
                     merged_dict[object_type][current_object_id] = []
-                if file_key != "vanilla": # if the objects aren't from vanilla minecraft
-                    full_object_id_list = [file_key+":" + e for e in current_affected_blocks] # add mod id in front of block ids
-                else:
-                    full_object_id_list = current_affected_blocks # if they are from vanilla minecraft, no need to add any mod ID in front
+                full_object_id_list = current_affected_blocks # if they are from vanilla minecraft, no need to add any mod ID in front
                 merged_dict[object_type][current_object_id].extend(full_object_id_list)
     return merged_dict
 

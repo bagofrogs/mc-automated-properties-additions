@@ -1,32 +1,38 @@
 {
-    "item": [
-        {
-            "description": "Medium white light",
-            "block_id": 10033,
-            "affected_blocks": [
-                "glow_squid_bucket"
-            ]
-        },
-        {
-            "description": "Redstone components",
-            "block_id": 10038,
-            "affected_blocks": [
-                "magma_bottle"
-            ]
-        },
-        {
-            "description": "Pink glow",
-            "block_id": 10047,
-            "affected_blocks": [
-                "endermite_bottle"
-            ]
-        },
-        {
-            "description": "Sea pickle",
-            "block_id": 10048,
-            "affected_blocks": [
-                "slime_bottle"
-            ]
-        }
-    ]
+    "name": "Bucket'Em",
+    "description": "A mod that lets you put stuff in buckets",
+    "id": "bucketem",
+    "version": "",
+    "data": {
+        "item": [
+            {
+                "description": "Medium white light",
+                "block_id": 10033,
+                "affected_blocks": [
+                    "glow_squid_bucket"
+                ]
+            },
+            {
+                "description": "Redstone components",
+                "block_id": 10038,
+                "affected_blocks": [
+                    "magma_bottle"
+                ]
+            },
+            {
+                "description": "Pink glow",
+                "block_id": 10047,
+                "affected_blocks": [
+                    "endermite_bottle"
+                ]
+            },
+            {
+                "description": "Sea pickle",
+                "block_id": 10048,
+                "affected_blocks": [
+                    "slime_bottle"
+                ]
+            }
+        ]
+    }
 }
