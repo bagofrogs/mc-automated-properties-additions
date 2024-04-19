@@ -13,13 +13,6 @@
                 ]
             },
             {
-                "description": "Medium golden light",
-                "object_id": 10036,
-                "affected_objects": [
-                    "fire_stone"
-                ]
-            },
-            {
                 "description": "Soul lights",
                 "object_id": 10043,
                 "affected_objects": [
