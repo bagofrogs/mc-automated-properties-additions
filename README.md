@@ -8,6 +8,9 @@ This is two things
 
 Together these two things allow for MUCH faster integration of modded blocks into your shaderpack configuration files ;)
 
+# Which mods are supported?
+Simply check out the [list of json files](https://github.com/Allexio/mc-automated-properties/tree/main/input-jsons) available on this github
+
 # How to use
 1. clone the repo,
 2. go inside the downloaded folder, in the `input-jsons` folder,
