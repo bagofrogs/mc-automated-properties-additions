@@ -19,7 +19,6 @@ def loader() -> dict:
         current_mod_id = json_data["id"]
         for object_type in json_data["data"]: # item/entity/block
             for object in json_data["data"][object_type]: # dictionaries with an id and affected blocks
-                current_affected_blocks = object["affected_blocks"]
                 object["affected_blocks"] = [current_mod_id+":" + e for e in object["affected_blocks"]] # add mod id in front of block ids
         data_dict[filename] = json_data["data"]
     return data_dict
