@@ -1401,7 +1401,7 @@
             ]
         },
         {
-            "description": "End portal frame",
+            "description": "End portal frame (greenish glow)",
             "block_id": 10045,
             "affected_blocks": [
                 "ender_eye"
