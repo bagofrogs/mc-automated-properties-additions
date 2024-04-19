@@ -115,6 +115,7 @@ def writer(merged_dict : dict, description_data : dict):
         file.write(output_string)
         file.close()
 
+### Code execution starts here
 
 check_existing_file()
 raw_data = loader()
