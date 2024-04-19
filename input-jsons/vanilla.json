@@ -592,7 +592,7 @@
             ]
         },
         {
-            "description": "Sea pickle",
+            "description": "Sea pickle (green glow)",
             "block_id": 10048,
             "affected_blocks": [
                 "sea_pickle:waterlogged=true"
