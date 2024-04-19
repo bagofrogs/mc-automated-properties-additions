@@ -1,0 +1,55 @@
+{
+    "name": "Handcrafted",
+    "description": "A mod that adds \"handcrafted\" furniture",
+    "id": "handcrafted",
+    "version": "",
+    "comments": "Yeah not much to see here.",
+    "data": {
+        "block": [
+
+            {
+                "description": "Hardcoded specular - Obsidian, nether bricks",
+                "block_id": 10011,
+                "affected_blocks": [
+                    "blue_glazed_thin_pot",
+                    "blue_glazed_medium_pot",
+                    "blue_glazed_thick_pot",
+                    "blue_glazed_wide_pot",
+                    "white_glazed_thin_pot",
+                    "white_glazed_medium_pot",
+                    "white_glazed_thick_pot",
+                    "white_glazed_wide_pot",
+                    "white_crockery_combo",
+                    "yellow_crockery_combo",
+                    "blue_crockery_combo",
+                    "white_bowl",
+                    "yellow_bowl",
+                    "blue_bowl",
+                    "white_plate",
+                    "yellow_plate",
+                    "blue_plate",
+                    "white_cup",
+                    "yellow_cup",
+                    "blue_cup"
+                ]
+            },
+            {
+                "description": "Transparent metal objects",
+                "block_id": 10018,
+                "affected_blocks": [
+                    "golden_thin_pot",
+                    "golden_medium_pot",
+                    "golden_thick_pot",
+                    "golden_wide_pot"
+                ]
+            },
+            {
+                "description": "Medium golden light",
+                "block_id": 10036,
+                "affected_blocks": [
+                    "oven:lit=true"
+                ]
+            }
+        ]
+    }
+}
