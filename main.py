@@ -107,7 +107,10 @@ def writer(merged_dict : dict, description_data : dict):
         print("Writing data to " + object_type + ".properties")
         output_string = ""
         for block_id in merged_dict[object_type]:
-            output_string+= "\n\n# " + description_data[object_type][block_id] # add the description on top
+            try:
+                output_string+= "\n\n# " + description_data[object_type][block_id] # add the description on top
+            except KeyError:
+                output_string+= "\n\n# no description provided" # no description in vanilla file
             output_string+= "\n" + object_type + "." + str(block_id) + " = " + " ".join(merged_dict[object_type][block_id]) # add the block ID and affected blocks
         
         file = open(mode="w", file=object_type+".properties")
