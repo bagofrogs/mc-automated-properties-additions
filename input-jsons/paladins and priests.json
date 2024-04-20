@@ -1,0 +1,41 @@
+{
+    "name": "Paladins (RPG Series)",
+    "description": "A mod that adds holy spells, and paladin armor and weapons",
+    "id": "paladins",
+    "version": "",
+    "data": {
+        "block": [
+            {
+                "description": "Strong golden light",
+                "object_id": 10035,
+                "affected_objects": [
+                    "monk_workbench"
+                ]
+            }
+        ],
+        "item": [
+            {
+                "description": "Medium golden light",
+                "object_id": 10036,
+                "affected_objects": [
+                    "wizard_staff",
+                    "paladin_spell_book"
+                ]
+            },
+            {
+                "description": "Sea pickle (I'm using it because it's green-ish and green is the colour of healing in RPGs, it makes sense to me.)",
+                "object_id": 10048,
+                "affected_objects": [
+                    "priest_spell_book",
+                    "acolyte_wand",
+                    "holy_wand",
+                    "diamond_holy_wand",
+                    "netherite_holy_wand",
+                    "holy_staff",
+                    "diamond_holy_staff",
+                    "netherite_holy_staff"
+                ]
+            }
+        ]
+    }
+}
