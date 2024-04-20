@@ -1,6 +1,6 @@
 {
     "name": "Vanilla blocks",
-    "description": "The default vanilla blocks, interpreted by Allexio, the guy who made this tool. I customised this a bit to my liking. Mainly was not a fan of nether bricks being super reflective, and made polished blocks reflective instead.",
+    "description": "The default settings for Photon, faithfully interpreting the original vision by SixthSurge",
     "id": "minecraft",
     "version": "",
     "data": {
@@ -157,13 +157,19 @@
                     "andesite_slab",
                     "andesite_stairs",
                     "andesite_wall",
-                    
+                    "polished_andesite",
+                    "polished_andesite_slab",
+                    "polished_andesite_stairs",
+                    "polished_andesite_wall",
                     "deepslate",
                     "cobbled_deepslate",
                     "cobbled_deepslate_slab",
                     "cobbled_deepslate_stairs",
                     "cobbled_deepslate_wall",
-                    
+                    "polished_deepslate",
+                    "polished_deepslate_slab",
+                    "polished_deepslate_stairs",
+                    "polished_deepslate_wall",
                     "deepslate_bricks",
                     "deepslate_brick_slab",
                     "deepslate_brick_stairs",
@@ -269,12 +275,18 @@
                     "granite_slab",
                     "granite_stairs",
                     "granite_wall",
-                    
+                    "polished_granite",
+                    "polished_granite_slab",
+                    "polished_granite_stairs",
+                    "polished_granite_wall",
                     "diorite",
                     "diorite_slab",
                     "diorite_stairs",
                     "diorite_wall",
-                    
+                    "polished_diorite",
+                    "polished_diorite_slab",
+                    "polished_diorite_stars",
+                    "polished_diorite_wall",
                     "dirt_path",
                     "warped_nylium",
                     "crimson_nylium"
@@ -285,22 +297,11 @@
                 "object_id": 10011,
                 "affected_objects": [
                     "obsidian",
-                    "polished_diorite",
-                    "polished_diorite_slab",
-                    "polished_diorite_stars",
-                    "polished_diorite_wall",
-                    "polished_granite",
-                    "polished_granite_slab",
-                    "polished_granite_stairs",
-                    "polished_granite_wall",
-                    "polished_deepslate",
-                    "polished_deepslate_slab",
-                    "polished_deepslate_stairs",
-                    "polished_deepslate_wall",
-                    "polished_andesite",
-                    "polished_andesite_slab",
-                    "polished_andesite_stairs",
-                    "polished_andesite_wall"
+                    "nether_bricks",
+                    "cracked_nether_bricks",
+                    "nether_brick_stairs",
+                    "nether_brick_slab",
+                    "chiseled_nether_bricks"
                 ]
             },
             {
@@ -1137,13 +1138,19 @@
                     "andesite_slab",
                     "andesite_stairs",
                     "andesite_wall",
-
+                    "polished_andesite",
+                    "polished_andesite_slab",
+                    "polished_andesite_stairs",
+                    "polished_andesite_wall",
                     "deepslate",
                     "cobbled_deepslate",
                     "cobbled_deepslate_slab",
                     "cobbled_deepslate_stairs",
                     "cobbled_deepslate_wall",
-                    
+                    "polished_deepslate",
+                    "polished_deepslate_slab",
+                    "polished_deepslate_stairs",
+                    "polished_deepslate_wall",
                     "deepslate_bricks",
                     "deepslate_brick_slab",
                     "deepslate_brick_stairs",
@@ -1247,43 +1254,33 @@
                     "granite_slab",
                     "granite_stairs",
                     "granite_wall",
-                    
+                    "polished_granite",
+                    "polished_granite_slab",
+                    "polished_granite_stairs",
+                    "polished_granite_wall",
                     "diorite",
                     "diorite_slab",
                     "diorite_stairs",
                     "diorite_wall",
-                    
+                    "polished_diorite",
+                    "polished_diorite_slab",
+                    "polished_diorite_stars",
+                    "polished_diorite_wall",
                     "dirt_path",
                     "warped_nylium",
-                    "crimson_nylium",
-                    "nether_bricks",
-                    "cracked_nether_bricks",
-                    "nether_brick_stairs",
-                    "nether_brick_slab",
-                    "chiseled_nether_bricks"
+                    "crimson_nylium"
                 ]
             },
             {
                 "description": "Hardcoded specular - Obsidian, nether bricks",
                 "object_id": 10011,
                 "affected_objects": [
-                    "polished_andesite",
-                    "polished_andesite_slab",
-                    "polished_andesite_stairs",
-                    "polished_andesite_wall",
                     "obsidian",
-                    "polished_diorite",
-                    "polished_diorite_slab",
-                    "polished_diorite_stars",
-                    "polished_diorite_wall",
-                    "polished_granite",
-                    "polished_granite_slab",
-                    "polished_granite_stairs",
-                    "polished_granite_wall",
-                    "polished_deepslate",
-                    "polished_deepslate_slab",
-                    "polished_deepslate_stairs",
-                    "polished_deepslate_wall"
+                    "nether_bricks",
+                    "cracked_nether_bricks",
+                    "nether_brick_stairs",
+                    "nether_brick_slab",
+                    "chiseled_nether_bricks"
                 ]
             },
             {
