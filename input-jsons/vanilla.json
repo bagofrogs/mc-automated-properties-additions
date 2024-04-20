@@ -3,6 +3,7 @@
     "description": "The default vanilla blocks, interpreted by Allexio, the guy who made this tool. I customised this a bit to my liking. Mainly was not a fan of nether bricks being super reflective, and made polished blocks reflective instead.",
     "id": "minecraft",
     "version": "",
+    "author": "Allexio",
     "data": {
         "block": [
             {
@@ -285,22 +286,28 @@
                 "object_id": 10011,
                 "affected_objects": [
                     "obsidian",
+                    "polished_blackstone",
+                    "polished_blackstone_slab",
+                    "polished_blackstone_wall",
+                    "polished_blackstone_stairs",
+                    "polished_blackstone_bricks",
+                    "polished_blackstone_brick_wall",
+                    "polished_blackstone_brick_stairs",
+                    "polished_blackstone_brick_slab",
+                    "cracked_polished_blackstone_bricks",
                     "polished_diorite",
                     "polished_diorite_slab",
                     "polished_diorite_stars",
-                    "polished_diorite_wall",
                     "polished_granite",
                     "polished_granite_slab",
                     "polished_granite_stairs",
-                    "polished_granite_wall",
                     "polished_deepslate",
                     "polished_deepslate_slab",
                     "polished_deepslate_stairs",
                     "polished_deepslate_wall",
                     "polished_andesite",
                     "polished_andesite_slab",
-                    "polished_andesite_stairs",
-                    "polished_andesite_wall"
+                    "polished_andesite_stairs"
                 ]
             },
             {
@@ -962,8 +969,7 @@
                     "nether_brick_wall",
                     "red_nether_brick_wall",
                     "blackstone_wall",
-                    "polished_blackstone_wall",
-                    "polished_blackstone_brick_wall",
+                    
                     "end_stone_brick_wall",
                     "pointed_dripstone:thickness=tip",
                     "pointed_dripstone:thickness=frustum",
