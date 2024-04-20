@@ -856,7 +856,7 @@
                     "glass_pane",
                     "ladder",
                     "tripwire_hook",
-                    "minecraft:tall_seagrass",
+                    "tall_seagrass",
                     "cave_vines_plant:berries=false",
                     "cave_vines:berries=false",
                     "kelp",
