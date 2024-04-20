@@ -9,21 +9,25 @@
                 "description": "Medium golden light",
                 "object_id": 10036,
                 "affected_objects": [
-                    "torchheater:level>0"
+                    "heater:level=1",
+                    "heater:level=2",
+                    "heater:level=3"
                 ]
             },
             {
                 "description": "Redstone components",
                 "object_id": 10038,
                 "affected_objects": [
-                    "season_detector:power>0"
+                    "season_detector:power=15"
                 ]
             },
             {
                 "description": "Soul lights",
                 "object_id": 10043,
                 "affected_objects": [
-                    "chiller:level>0"
+                    "chiller:level=1",
+                    "chiller:level=2",
+                    "chiller:level=3"
                 ]
             },
             {
