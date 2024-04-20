@@ -1774,7 +1774,8 @@
                     "polished_smooth_stone",
                     "polished_spruce_planks",
                     "polished_stone",
-                    "polished_warped_planks"
+                    "polished_warped_planks",
+                    "polished_gilded_blackstone"
                 ]
             },
             {
@@ -5302,7 +5303,8 @@
                     "polished_smooth_stone",
                     "polished_spruce_planks",
                     "polished_stone",
-                    "polished_warped_planks"
+                    "polished_warped_planks",
+                    "polished_gilded_blackstone"
                 ]
             },
             {
