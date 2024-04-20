@@ -1,0 +1,133 @@
+{
+    "name": "Galosphere",
+    "description": "A mod that adds special caves and cool features",
+    "id": "galosphere",
+    "version": "",
+    "comments": "I did my best with the colours available. I know it's not the best to have clusters, blocks and lamps glowing at the same intensity but it's all I could do :/",
+    "data": {
+        "block": [
+            {
+                "description": "Small plants",
+                "object_id": 10002,
+                "affected_objects": [
+                    "lichen_roots",
+                    "bowl_lichen",
+                    "lichen_shelf"
+                ]
+            },
+            {
+                "description": "Transparent metal objects",
+                "object_id": 10018,
+                "affected_objects": [
+                    "gilded_beads",
+                    "silver_lattice"
+                ]
+            },
+            {
+                "description": "Strong white light",
+                "object_id": 10032,
+                "affected_objects": [
+                    "chandelier:half=upper"
+                ]
+            },
+            {
+                "description": "Medium white light",
+                "object_id": 10033,
+                "affected_objects": [
+                    "glow_ink_clumps:waterlogged=true"
+                ]
+            },
+            {
+                "description": "Weak white light, transparent",
+                "object_id": 10034,
+                "affected_objects": [
+                    "glow_ink_clumps:waterlogged=false"
+                ]
+            },
+            {
+                "description": "Brewing stand",
+                "object_id": 10041,
+                "affected_objects": [
+                    "lumiere_cluster",
+                    "glinted_lumiere_cluster",
+                    "lumiere_block",
+                    "charged_lumiere_block",
+                    "lumiere_lamp"
+                ]
+            },
+            {
+                "description": "End portal frame (greenish glow)",
+                "object_id": 10045,
+                "affected_objects": [
+                    "allurite_cluster",
+                    "glinted_allurite_cluster",
+                    "allurite_lamp"
+                ]
+            },
+            {
+                "description": "Amethyst cluster",
+                "object_id": 10055,
+                "affected_objects": [
+                    "amethyst_lamp",
+                    "glinted_amethyst_cluster"
+                ]
+            }
+        ],
+        "item": [
+            {
+                "description": "Strong white light",
+                "object_id": 10032,
+                "affected_objects": [
+                    "chandelier"
+                ]
+            },
+            {
+                "description": "Weak white light, transparent",
+                "object_id": 10034,
+                "affected_objects": [
+                    "glow_ink_clumps",
+                    "glow_flare"
+                ]
+            },
+            {
+                "description": "Brewing stand",
+                "object_id": 10041,
+                "affected_objects": [
+                    "lumiere_cluster",
+                    "glinted_lumiere_cluster",
+                    "lumiere_block",
+                    "charged_lumiere_block",
+                    "lumiere_lamp",
+                    "lumiere_shard"
+                ]
+            },
+            {
+                "description": "Soul lights",
+                "object_id": 10043,
+                "affected_objects": [
+                    "soul_flare"
+                ]
+            },
+            {
+                "description": "End portal frame (greenish glow)",
+                "object_id": 10045,
+                "affected_objects": [
+                    "allurite_cluster",
+                    "glinted_allurite_cluster",
+                    "allurite_lamp",
+                    "allurite_shard"
+                ]
+            },
+            {
+                "description": "Amethyst cluster",
+                "object_id": 10055,
+                "affected_objects": [
+                    "amethyst_lamp",
+                    "glinted_amethyst_cluster"
+                ]
+            }
+        ],
+        "entity": [
+        ]
+    }
+}
