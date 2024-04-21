@@ -12,7 +12,7 @@ Together these two things allow for MUCH faster integration of modded blocks int
 Simply check out the [list of json files](https://github.com/Allexio/mc-automated-properties/tree/main/input-jsons) available on this github
 
 # How to use
-1. clone the repo,
+1. clone the repo (or download the zip and unzip it if you only plan on using the tool and not contributing),
 2. go inside the downloaded folder, in the `input-jsons` folder,
 3. remove all the `.json` files for mods you are not using,
 4. run `main.py` with python (pretty standard nowadays, if you don't have python, you'll have to [download it](https://www.python.org/downloads/))
