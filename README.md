@@ -7,6 +7,9 @@ The Photon shaderpack (and I suspect others as well) use three files to define h
 - `item.properties` lists all **held items**. So for example if you are holding a torch or a glowstone block, the shader will know that there needs to be an aura of light around you because of that
 - `entity.properties` lists all **entities**. So for example mobs like the glow squid or drowner have glowy, emissive parts, and that's the file that defines those
 
+This can be quite in-depth. For example some blocks emit light when placed, but not when held. Some do so when they are powered, some even only emit light when they are waterlogged.
+This is all defined in the json files.
+
 # So what does this tool do?
 The default .properties files mostly define vanilla blocks/items/entities.
 This tool generates those same files (`block.properties`, `item.properties`, and `entity.properties`) with a bunch of modded content, and it is very easy for people to define their own mod files so others can generate properties files for those blocks too!
