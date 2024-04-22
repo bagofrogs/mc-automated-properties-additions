@@ -8,7 +8,7 @@ The Photon shaderpack (and I suspect others as well) use three files to define h
 - `entity.properties` lists all **entities**. So for example mobs like the glow squid or drowner have glowy, emissive parts, and that's the file that defines those
 
 This can be quite in-depth. For example some blocks emit light when placed, but not when held. Some do so when they are powered, some even only emit light when they are waterlogged.
-This is all defined in the json files.
+This is all defined in the `.properties` files.
 
 ## So what does this tool do?
 The default .properties files mostly define vanilla blocks/items/entities.
