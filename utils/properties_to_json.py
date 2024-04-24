@@ -22,7 +22,15 @@ def initial_loader():
                 unstripped_data = line[line.find("=")+2:].split(" ")  # Get the data
                 stripped_data = [s.strip() for s in unstripped_data]  # Strip spaces and newlines
                 # add it to the dictionary in list format
-                unified_raw_data[object_type][int(line[line.find(".")+1:line.find(".")+6])] = stripped_data
+                try:
+                    unified_raw_data[object_type][int(line[line.find(".")+1:line.find(".")+6])] = stripped_data
+                except ValueError:
+                    print("FATAL: There was an error while reading the file: " + object_type + ".properties.")
+                    print("The following line did not seem to be respecting expected format:")
+                    print(line)
+                    input("Press ENTER to close the program.")
+                    exit(1)
+
     return unified_raw_data
 
 
