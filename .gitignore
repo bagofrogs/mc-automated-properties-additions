@@ -1,5 +1,8 @@
-# "compiled" block.properties & item.properties files
+# "compiled" X.properties
 *.properties
+
+# output files
+./output/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
