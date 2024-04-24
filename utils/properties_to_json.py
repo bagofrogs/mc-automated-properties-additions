@@ -48,7 +48,9 @@ def sort_by_mod(unified_raw_data: dict) -> dict:
     for object_type in unified_raw_data:
         for object_id in unified_raw_data[object_type]:
             for object in unified_raw_data[object_type][object_id]:
-                if ":" not in object:  # that means it's a vanilla object
+                if object == "black_candle:lit=true:candles=1":
+                    print("test")
+                if ":" not in object or object.count(":") == object.count("="):  # means it's vanilla
                     object = "minecraft:" + object  # so I add the minecraft: prefix
                 mod_id = object[:object.find(":")]
                 object_name = object[object.find(":")+1:]
