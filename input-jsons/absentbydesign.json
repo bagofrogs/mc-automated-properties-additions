@@ -1,67 +1,53 @@
 {
-    "name": "Absent By Design"
-    "description": "",
+    "name": "Absent By Design",
+    "description": ",",
     "id": "absentbydesign",
-    "version": "",
-    "comment": "",
-    "author": "",
+    "version": ",",
+    "comment": ",",
+    "author": ",",
     "data": {
         "block": [
-            {
-                "description": "Small plants",
-                "object_id": 10002,
-                "affected_objects": [
-					
-				]
-            },
-            {
-                "description": "Leaves",
-                "object_id": 10005,
-                "affected_objects": [
-                    
-                ]
-            },
             {
                 "description": "Hardcoded specular - Grass, stone, andesite, spruce and dark oak planks",
                 "object_id": 10006,
                 "affected_objects": [
-					"slab_coarse_dirt"
-					"stairs_coarse_dirt"
-					"slab_bricks_cracked"
-					"stairs_bricks_cracked"
-					"wall_stonebrick_cracked"
-					"wall_stonebrick_carved"
-					"trapdoor_stone"
-					"trapdoor_andesite"
-					"trapdoor_stone_bricks"
-                    "fence_log_spruce"
-					"fence_log_darkoak"
-					"wall_spruce_log"
-					"wall_dark_oak_log"
-					"wall_stripped_struce_log"
-					"wall_stripped_dark_oak_log"
-					"stairs_smooth_stone"
-					"wall_stone_slab"
-					"wall_stone"
-					"slab_cracked_deepslate_bricks"
-					"slab_cracked_deepslate_tiles"
-					"stairs_cracked_deepslate_bricks"
-					"stairs_cracked_deepslate_tiles"
-					"wall_cracked_deepslate_bricks"
-					"wall_cracked_deepslate_tiles"
-					"fence_mangrove"
-					"fence_warped"
-					"fence_crimson"
-					"wall_mangrove_log"
-					"wall_stripped_mangrove_log"
-					"wall_warped_planks"
-					"wall_crimson_planks"
-					"wall_spruce_planks"
-					"wall_dark_oak_planks"
-					"wall_stripped_warped"
-					"wall_stripped_crimson"
-					"slab_netherrack"
-					"stairs_netherrack"
+                    "slab_coarse_dirt",
+                    "stairs_coarse_dirt",
+                    "slab_bricks_cracked",
+                    "stairs_bricks_cracked",
+                    "wall_stonebrick_cracked",
+                    "wall_stonebrick_carved",
+                    "trapdoor_stone",
+                    "trapdoor_andesite",
+                    "trapdoor_stone_bricks",
+                    "fence_log_spruce",
+                    "fence_log_darkoak",
+                    "wall_spruce_log",
+                    "wall_dark_oak_log",
+                    "wall_stripped_struce_log",
+                    "wall_stripped_dark_oak_log",
+                    "stairs_smooth_stone",
+                    "wall_stone_slab",
+                    "wall_stone",
+                    "slab_cracked_deepslate_bricks",
+                    "slab_cracked_deepslate_tiles",
+                    "stairs_cracked_deepslate_bricks",
+                    "stairs_cracked_deepslate_tiles",
+                    "wall_cracked_deepslate_bricks",
+                    "wall_cracked_deepslate_tiles",
+                    "fence_mangrove",
+                    "fence_warped",
+                    "fence_crimson",
+                    "wall_mangrove_log",
+                    "wall_stripped_mangrove_log",
+                    "wall_warped_planks",
+                    "wall_crimson_planks",
+                    "wall_spruce_planks",
+                    "wall_dark_oak_planks",
+                    "wall_stripped_warped",
+                    "wall_stripped_crimson",
+                    "slab_netherrack",
+                    "stairs_netherrack"
                 ]
             },
             {
@@ -72,447 +58,335 @@
                 ]
             },
             {
-                "description": "Hardcoded specular - Ice",
-                "object_id": 10008,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
                 "description": "Hardcoded specular - Red sand, birch planks",
                 "object_id": 10009,
                 "affected_objects": [
-					"wall_sandstone_red_smooth"
-                    "fence_log_birch"
-					"wall_birch_log"
-					"wall_stripped_birch_log"
-					"wall_birch_planks"
+                    "wall_sandstone_red_smooth",
+                    "fence_log_birch",
+                    "wall_birch_log",
+                    "wall_stripped_birch_log",
+                    "wall_birch_planks"
                 ]
             },
             {
                 "description": "Hardcoded specular - Oak, jungle and acacia planks, granite and diorite",
                 "object_id": 10010,
                 "affected_objects": [
-					"trapdoor_diorite"
-                    "trapdoor_granite"
-					"fence_log_oak"
-					"fence_log_jungle"
-					"fence_log_acacia"
-					"wall_oak_log"
-					"wall_jungle_log"
-					"wall_acacia_log"
-					"wall_stripped_oak_log"
-					"wall_stripped_jungle_log"
-					"wall_stripped_acacia_log"
-					"slab_obsidian"
-					"stairs_obsidian"
-					"wall_obsidian"
-					"slab_cracked_nether_bricks"
-					"stairs_cracked_nether_bricks"
-					"wall_cracked_nether_bricks"
-					"gate_nether_bricks"
-					"fence_red_netherbrick"
-					"gate_red_nether_bricks"
-					"wall_oak_planks"
-					"wall_jungle_planks"
-					"wall_acacia_planks"
+                    "trapdoor_diorite",
+                    "trapdoor_granite",
+                    "fence_log_oak",
+                    "fence_log_jungle",
+                    "fence_log_acacia",
+                    "wall_oak_log",
+                    "wall_jungle_log",
+                    "wall_acacia_log",
+                    "wall_stripped_oak_log",
+                    "wall_stripped_jungle_log",
+                    "wall_stripped_acacia_log",
+                    "slab_obsidian",
+                    "stairs_obsidian",
+                    "wall_obsidian",
+                    "slab_cracked_nether_bricks",
+                    "stairs_cracked_nether_bricks",
+                    "wall_cracked_nether_bricks",
+                    "gate_nether_bricks",
+                    "fence_red_netherbrick",
+                    "gate_red_nether_bricks",
+                    "wall_oak_planks",
+                    "wall_jungle_planks",
+                    "wall_acacia_planks"
                 ]
             },
             {
                 "description": "Hardcoded specular - Polished Blocks",
                 "object_id": 10011,
                 "affected_objects": [
-                    "slab_polished_basalt"
-					"slab_mushroom_polished"
-					"stairs_polished_basalt"
-					"stairs_mushroom_polished"
-					"wall_andesite_smooth"
-					"wall_granite_smooth"
-					"wall_diorite_smooth"
-                ]
-            },
-            {
-                "description": "Hardcoded specular - Metals",
-                "object_id": 10012,
-                "affected_objects": [
-                   
+                    "slab_polished_basalt",
+                    "slab_mushroom_polished",
+                    "stairs_polished_basalt",
+                    "stairs_mushroom_polished",
+                    "wall_andesite_smooth",
+                    "wall_granite_smooth",
+                    "wall_diorite_smooth"
                 ]
             },
             {
                 "description": "Hardcoded specular - Gems",
                 "object_id": 10013,
                 "affected_objects": [
-                    "slab_amethyst"
-					"stairs_amethyst"
-					"wall_amethyst"
-					"wall_quartz"
-					"slab_quartz_bricks"
-					"stairs_quartz_bricks"
-					"wall_quartz_bricks"
-					"gate_quartz"
-					"trapdoor_quartz"
+                    "slab_amethyst",
+                    "stairs_amethyst",
+                    "wall_amethyst",
+                    "wall_quartz",
+                    "slab_quartz_bricks",
+                    "stairs_quartz_bricks",
+                    "wall_quartz_bricks",
+                    "gate_quartz",
+                    "trapdoor_quartz"
                 ]
             },
             {
                 "description": "Weak SSS , wool",
                 "object_id": 10015,
                 "affected_objects": [
-                    "slab_wool_black"
-					"stairs_wool_black"
-					"slab_wool_blue"
-					"stairs_wool_blue"
-					"slab_wool_brown"
-					"stairs_wool_brown"
-					"slab_wool_cyan"
-					"stairs_wool_cyan"
-					"slab_wool_gray"
-					"stairs_wool_gray"
-					"slab_wool_green"
-					"stairs_wool_green"
-					"slab_wool_light_blue"
-					"stairs_wool_light_blue"
-					"slab_wool_lime"
-					"stairs_wool_lime"
-					"slab_wool_magenta"
-					"stairs_wool_magenta"
-					"slab_wool_orange"
-					"stairs_wool_orange"
-					"slab_wool_pink"
-					"stairs_wool_pink"
-					"slab_wool_purple"
-					"stairs_wool_purple"
-					"slab_wool_red"
-					"stairs_wool_red"
-					"slab_wool_silver"
-					"stairs_wool_silver"
-					"slab_wool_white"
-					"stairs_wool_white"
-					"slab_wool_yellow"
-					"stairs_wool_yellow"
+                    "slab_wool_black",
+                    "stairs_wool_black",
+                    "slab_wool_blue",
+                    "stairs_wool_blue",
+                    "slab_wool_brown",
+                    "stairs_wool_brown",
+                    "slab_wool_cyan",
+                    "stairs_wool_cyan",
+                    "slab_wool_gray",
+                    "stairs_wool_gray",
+                    "slab_wool_green",
+                    "stairs_wool_green",
+                    "slab_wool_light_blue",
+                    "stairs_wool_light_blue",
+                    "slab_wool_lime",
+                    "stairs_wool_lime",
+                    "slab_wool_magenta",
+                    "stairs_wool_magenta",
+                    "slab_wool_orange",
+                    "stairs_wool_orange",
+                    "slab_wool_pink",
+                    "stairs_wool_pink",
+                    "slab_wool_purple",
+                    "stairs_wool_purple",
+                    "slab_wool_red",
+                    "stairs_wool_red",
+                    "slab_wool_silver",
+                    "stairs_wool_silver",
+                    "slab_wool_white",
+                    "stairs_wool_white",
+                    "slab_wool_yellow",
+                    "stairs_wool_yellow"
                 ]
             },
             {
                 "description": "End stone",
                 "object_id": 10017,
                 "affected_objects": [
-                    "slab_end_stone"
-					"stairs_end_stone"
-					"wall_end_stone"
-					"trapdoor_end_stone"
-                ]
-            },
-            {
-                "description": "Transparent metal objects",
-                "object_id": 10018,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Warped stem (x axis)",
-                "object_id": 10019,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Warped stem (y axis)",
-                "object_id": 10020,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Warped stem (z axis)",
-                "object_id": 10021,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Crimson stem (x axis)",
-                "object_id": 10023,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Crimson stem (y axis)",
-                "object_id": 10024,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Crimson stem (z axis)",
-                "object_id": 10025,
-                "affected_objects": [
-                    
+                    "slab_end_stone",
+                    "stairs_end_stone",
+                    "wall_end_stone",
+                    "trapdoor_end_stone"
                 ]
             },
             {
                 "description": "Strong white light",
                 "object_id": 10032,
                 "affected_objects": [
-                    "slab_sea_lantern"
-					"stairs_sea_lantern"
-					"wall_sea_lantern"					
-                ]
-            },
-            {
-                "description": "Medium white light",
-                "object_id": 10033,
-                "affected_objects": [
-                    
+                    "slab_sea_lantern",
+                    "stairs_sea_lantern",
+                    "wall_sea_lantern"
                 ]
             },
             {
                 "description": "Strong golden light",
                 "object_id": 10035,
                 "affected_objects": [
-                    "slab_glowstone"
-					"stairs_glowstone"
-					"wall_glowstone"
-                ]
-            },
-            {
-                "description": "Medium golden light",
-                "object_id": 10036,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Redstone components",
-                "object_id": 10038,
-                "affected_objects": [
-                    
+                    "slab_glowstone",
+                    "stairs_glowstone",
+                    "wall_glowstone"
                 ]
             },
             {
                 "description": "Medium orange light",
                 "object_id": 10040,
                 "affected_objects": [
-                    "slab_magma"
-					"stairs_magma"
-					"wall_magma"
-                ]
-            },
-            {
-                "description": "Jack o' Lantern",
-                "object_id": 10042,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Soul lights",
-                "object_id": 10043,
-                "affected_objects": [
-                    
+                    "slab_magma",
+                    "stairs_magma",
+                    "wall_magma"
                 ]
             },
             {
                 "description": "Pink glow",
                 "object_id": 10047,
                 "affected_objects": [
-					"slab_crying_obsidian"
-					"stairs_crying_obsidian"
+                    "slab_crying_obsidian",
+                    "stairs_crying_obsidian",
                     "wall_crying_obsidian"
-                ]
-            },
-            {
-                "description": "Nether plants",
-                "object_id": 10049,
-                "affected_objects": [
-                    
                 ]
             },
             {
                 "description": "Ochre froglight",
                 "object_id": 10051,
                 "affected_objects": [
-                    "slab_ochre_froglight"
-					"stairs_ochre_froglight
-					"wall_ochre_froglight"
+                    "slab_ochre_froglight",
+                    "stairs_ochre_froglight",
+                    "wall_ochre_froglight"
                 ]
             },
             {
                 "description": "Verdant froglight",
                 "object_id": 10052,
                 "affected_objects": [
-                    "slab_verdant_froglight"
-					"stairs_verdant_froglight"
-					"wall_verdant_froglight"
-				]
+                    "slab_verdant_froglight",
+                    "stairs_verdant_froglight",
+                    "wall_verdant_froglight"
+                ]
             },
             {
                 "description": "Pearlescent froglight",
                 "object_id": 10053,
                 "affected_objects": [
-                    "slab_pearlescent_froglight"
-					"stairs_pearlescent_froglight"
-					"wall_pearlescent_froglight"
-                ]
-            },
-            {
-                "description": "Redstone block",
-                "object_id": 10058,
-                "affected_objects": [
-                    
+                    "slab_pearlescent_froglight",
+                    "stairs_pearlescent_froglight",
+                    "wall_pearlescent_froglight"
                 ]
             },
             {
                 "description": "Tinting Blocks: Red",
                 "object_id": 10064,
                 "affected_objects": [
-                    "slab_glass_red"
-					"stairs_glass_red"
-					"wall_glass_red"
+                    "slab_glass_red",
+                    "stairs_glass_red",
+                    "wall_glass_red"
                 ]
             },
             {
                 "description": "Tinting Blocks: Orange",
                 "object_id": 10065,
                 "affected_objects": [
-                    "slab_glass_orange"
-					"stairs_glass_orange"
-					"wall_glass_orange"
+                    "slab_glass_orange",
+                    "stairs_glass_orange",
+                    "wall_glass_orange"
                 ]
             },
             {
                 "description": "Tinting Blocks: Yellow",
                 "object_id": 10066,
                 "affected_objects": [
-                    "slab_glass_yellow"
-					"stairs_glass_yellow"
-					"wall_glass_yellow"
+                    "slab_glass_yellow",
+                    "stairs_glass_yellow",
+                    "wall_glass_yellow"
                 ]
             },
             {
                 "description": "Tinting Blocks: Brown",
                 "object_id": 10067,
                 "affected_objects": [
-                    "slab_glass_brown"
-					"stairs_glass_brown"
-					"wall_glass_brown"
+                    "slab_glass_brown",
+                    "stairs_glass_brown",
+                    "wall_glass_brown"
                 ]
             },
             {
                 "description": "Tinting Blocks: Green",
                 "object_id": 10068,
                 "affected_objects": [
-                    "slab_glass_green"
-					"stairs_glass_green"
-					"wall_glass_green"
+                    "slab_glass_green",
+                    "stairs_glass_green",
+                    "wall_glass_green"
                 ]
             },
             {
                 "description": "Tinting Blocks: Lime",
                 "object_id": 10069,
                 "affected_objects": [
-                    "slab_glass_lime"
-					"stairs_glass_lime"
-					"wall_glass_lime"
+                    "slab_glass_lime",
+                    "stairs_glass_lime",
+                    "wall_glass_lime"
                 ]
             },
             {
                 "description": "Tinting Blocks: Blue",
                 "object_id": 10070,
                 "affected_objects": [
-                    "slab_glass_blue"
-					"stairs_glass_blue"
-					"wall_glass_blue"
+                    "slab_glass_blue",
+                    "stairs_glass_blue",
+                    "wall_glass_blue"
                 ]
             },
             {
                 "description": "Tinting Blocks: Light blue",
                 "object_id": 10071,
                 "affected_objects": [
-                    "slab_glass_light_blue"
-					"stairs_glass_light_blue"
-					"wall_glass_light_blue"
+                    "slab_glass_light_blue",
+                    "stairs_glass_light_blue",
+                    "wall_glass_light_blue"
                 ]
             },
             {
                 "description": "Tinting Blocks: Cyan",
                 "object_id": 10072,
                 "affected_objects": [
-                    "slab_glass_cyan"
-					"stairs_glass_cyan"
-					"wall_glass_cyan"
+                    "slab_glass_cyan",
+                    "stairs_glass_cyan",
+                    "wall_glass_cyan"
                 ]
             },
             {
                 "description": "Tinting Blocks: Purple",
                 "object_id": 10073,
                 "affected_objects": [
-                    "slab_glass_purple"
-					"stairs_glass_purple"
-					"wall_glass_purple"
+                    "slab_glass_purple",
+                    "stairs_glass_purple",
+                    "wall_glass_purple"
                 ]
             },
             {
                 "description": "Tinting Blocks: Magenta",
                 "object_id": 10074,
                 "affected_objects": [
-                    "slab_glass_magenta"
-					"stairs_glass_magenta"
-					"wall_glass_magenta"
+                    "slab_glass_magenta",
+                    "stairs_glass_magenta",
+                    "wall_glass_magenta"
                 ]
             },
             {
                 "description": "Tinting Blocks: Pink",
                 "object_id": 10075,
                 "affected_objects": [
-                    "slab_glass_pink"
-					"stairs_glass_pink"
-					"wall_glass_pink"
+                    "slab_glass_pink",
+                    "stairs_glass_pink",
+                    "wall_glass_pink"
                 ]
             },
             {
                 "description": "Tinting Blocks: Black",
                 "object_id": 10076,
                 "affected_objects": [
-                    "slab_glass_black"
-					"stairs_glass_black"
-					"wall_glass_black"
+                    "slab_glass_black",
+                    "stairs_glass_black",
+                    "wall_glass_black"
                 ]
             },
             {
                 "description": "Tinting Blocks: White",
                 "object_id": 10077,
                 "affected_objects": [
-                    "slab_glass_white"
-					"stairs_glass_white"
-					"wall_glass_white"
+                    "slab_glass_white",
+                    "stairs_glass_white",
+                    "wall_glass_white"
                 ]
             },
             {
                 "description": "Tinting Blocks: Gray",
                 "object_id": 10078,
                 "affected_objects": [
-                    "slab_glass_gray"
-					"stairs_glass_gray"
-					"wall_glass_gray"
+                    "slab_glass_gray",
+                    "stairs_glass_gray",
+                    "wall_glass_gray"
                 ]
             },
             {
                 "description": "Tinting Blocks: Light gray",
                 "object_id": 10079,
                 "affected_objects": [
-                    "slab_glass_light_gray"
-					"stairs_glass_light_gray"
-					"wall_glass_light_gray"
+                    "slab_glass_light_gray",
+                    "stairs_glass_light_gray",
+                    "wall_glass_light_gray"
                 ]
             },
             {
                 "description": "Tinting Blocks: Transparent",
                 "object_id": 10080,
                 "affected_objects": [
-                    "slab_glass"
-					"stairs_glass"
-					"wall_glass"
+                    "slab_glass",
+                    "stairs_glass",
+                    "wall_glass"
                 ]
             }
         ],
@@ -521,43 +395,43 @@
                 "description": "Hardcoded specular - Grass, stone, spruce and dark oak planks",
                 "object_id": 10006,
                 "affected_objects": [
-                    "slab_coarse_dirt"
-					"stairs_coarse_dirt"
-					"slab_bricks_cracked"
-					"stairs_bricks_cracked"
-					"wall_stonebrick_cracked"
-					"wall_stonebrick_carved"
-					"trapdoor_stone"
-					"trapdoor_andesite"
-					"trapdoor_stone_bricks"
-                    "fence_log_spruce"
-					"fence_log_darkoak"
-					"wall_spruce_log"
-					"wall_dark_oak_log"
-					"wall_stripped_struce_log"
-					"wall_stripped_dark_oak_log"
-					"stairs_smooth_stone"
-					"wall_stone_slab"
-					"wall_stone"
-					"slab_cracked_deepslate_bricks"
-					"slab_cracked_deepslate_tiles"
-					"stairs_cracked_deepslate_bricks"
-					"stairs_cracked_deepslate_tiles"
-					"wall_cracked_deepslate_bricks"
-					"wall_cracked_deepslate_tiles"
-					"fence_mangrove"
-					"fence_warped"
-					"fence_crimson"
-					"wall_mangrove_log"
-					"wall_stripped_mangrove_log"
-					"wall_warped_planks"
-					"wall_crimson_planks"
-					"wall_spruce_planks"
-					"wall_dark_oak_planks"
-					"wall_stripped_warped"
-					"wall_stripped_crimson"
-					"slab_netherrack"
-					"stairs_netherrack"
+                    "slab_coarse_dirt",
+                    "stairs_coarse_dirt",
+                    "slab_bricks_cracked",
+                    "stairs_bricks_cracked",
+                    "wall_stonebrick_cracked",
+                    "wall_stonebrick_carved",
+                    "trapdoor_stone",
+                    "trapdoor_andesite",
+                    "trapdoor_stone_bricks",
+                    "fence_log_spruce",
+                    "fence_log_darkoak",
+                    "wall_spruce_log",
+                    "wall_dark_oak_log",
+                    "wall_stripped_struce_log",
+                    "wall_stripped_dark_oak_log",
+                    "stairs_smooth_stone",
+                    "wall_stone_slab",
+                    "wall_stone",
+                    "slab_cracked_deepslate_bricks",
+                    "slab_cracked_deepslate_tiles",
+                    "stairs_cracked_deepslate_bricks",
+                    "stairs_cracked_deepslate_tiles",
+                    "wall_cracked_deepslate_bricks",
+                    "wall_cracked_deepslate_tiles",
+                    "fence_mangrove",
+                    "fence_warped",
+                    "fence_crimson",
+                    "wall_mangrove_log",
+                    "wall_stripped_mangrove_log",
+                    "wall_warped_planks",
+                    "wall_crimson_planks",
+                    "wall_spruce_planks",
+                    "wall_dark_oak_planks",
+                    "wall_stripped_warped",
+                    "wall_stripped_crimson",
+                    "slab_netherrack",
+                    "stairs_netherrack"
                 ]
             },
             {
@@ -568,197 +442,134 @@
                 ]
             },
             {
-                "description": "Hardcoded specular - Ice",
-                "object_id": 10008,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
                 "description": "Hardcoded specular - Red sand, birch planks",
                 "object_id": 10009,
                 "affected_objects": [
-                    "wall_sandstone_red_smooth"
-                    "fence_log_birch"
-					"wall_birch_log"
-					"wall_stripped_birch_log"
-					"wall_birch_planks"
+                    "wall_sandstone_red_smooth",
+                    "fence_log_birch",
+                    "wall_birch_log",
+                    "wall_stripped_birch_log",
+                    "wall_birch_planks"
                 ]
             },
             {
                 "description": "Hardcoded specular - Oak, jungle and acacia planks, granite and diorite",
                 "object_id": 10010,
                 "affected_objects": [
-                    "trapdoor_diorite"
-                    "trapdoor_granite"
-					"fence_log_oak"
-					"fence_log_jungle"
-					"fence_log_acacia"
-					"wall_oak_log"
-					"wall_jungle_log"
-					"wall_acacia_log"
-					"wall_stripped_oak_log"
-					"wall_stripped_jungle_log"
-					"wall_stripped_acacia_log"
-					"slab_obsidian"
-					"stairs_obsidian"
-					"wall_obsidian"
-					"slab_cracked_nether_bricks"
-					"stairs_cracked_nether_bricks"
-					"wall_cracked_nether_bricks"
-					"gate_nether_bricks"
-					"fence_red_netherbrick"
-					"gate_red_nether_bricks"
-					"wall_oak_planks"
-					"wall_jungle_planks"
-					"wall_acacia_planks"
+                    "trapdoor_diorite",
+                    "trapdoor_granite",
+                    "fence_log_oak",
+                    "fence_log_jungle",
+                    "fence_log_acacia",
+                    "wall_oak_log",
+                    "wall_jungle_log",
+                    "wall_acacia_log",
+                    "wall_stripped_oak_log",
+                    "wall_stripped_jungle_log",
+                    "wall_stripped_acacia_log",
+                    "slab_obsidian",
+                    "stairs_obsidian",
+                    "wall_obsidian",
+                    "slab_cracked_nether_bricks",
+                    "stairs_cracked_nether_bricks",
+                    "wall_cracked_nether_bricks",
+                    "gate_nether_bricks",
+                    "fence_red_netherbrick",
+                    "gate_red_nether_bricks",
+                    "wall_oak_planks",
+                    "wall_jungle_planks",
+                    "wall_acacia_planks"
                 ]
             },
             {
                 "description": "Hardcoded specular - Polished Blocks",
                 "object_id": 10011,
                 "affected_objects": [
-                    "slab_polished_basalt"
-					"slab_mushroom_polished"
-					"stairs_polished_basalt"
-					"stairs_mushroom_polished"
-					"wall_andesite_smooth"
-					"wall_granite_smooth"
-					"wall_diorite_smooth"
-                ]
-            },
-            {
-                "description": "Hardcoded specular - Metals",
-                "object_id": 10012,
-                "affected_objects": [
-                    
+                    "slab_polished_basalt",
+                    "slab_mushroom_polished",
+                    "stairs_polished_basalt",
+                    "stairs_mushroom_polished",
+                    "wall_andesite_smooth",
+                    "wall_granite_smooth",
+                    "wall_diorite_smooth"
                 ]
             },
             {
                 "description": "Hardcoded specular - Gems",
                 "object_id": 10013,
                 "affected_objects": [
-                    "slab_amethyst"
-					"stairs_amethyst"
-					"wall_amethyst"
-					"wall_quartz"
-					"slab_quartz_bricks"
-					"stairs_quartz_bricks"
-					"wall_quartz_bricks"
-					"gate_quartz"
-					"trapdoor_quartz"
+                    "slab_amethyst",
+                    "stairs_amethyst",
+                    "wall_amethyst",
+                    "wall_quartz",
+                    "slab_quartz_bricks",
+                    "stairs_quartz_bricks",
+                    "wall_quartz_bricks",
+                    "gate_quartz",
+                    "trapdoor_quartz"
                 ]
             },
             {
                 "description": "Strong white light",
                 "object_id": 10032,
                 "affected_objects": [
-                    "slab_sea_lantern"
-					"stairs_sea_lantern"
-					"wall_sea_lantern"
-                ]
-            },
-            {
-                "description": "Medium white light",
-                "object_id": 10033,
-                "affected_objects": [
-                    
+                    "slab_sea_lantern",
+                    "stairs_sea_lantern",
+                    "wall_sea_lantern"
                 ]
             },
             {
                 "description": "Strong golden light",
                 "object_id": 10035,
                 "affected_objects": [
-                    "slab_glowstone"
-					"stairs_glowstone"
-					"wall_glowstone"
-                ]
-            },
-            {
-                "description": "Medium golden light",
-                "object_id": 10036,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Redstone components",
-                "object_id": 10038,
-                "affected_objects": [
-                    
+                    "slab_glowstone",
+                    "stairs_glowstone",
+                    "wall_glowstone"
                 ]
             },
             {
                 "description": "Medium orange light",
                 "object_id": 10040,
                 "affected_objects": [
-                    "slab_magma"
-					"stairs_magma"
-					"wall_magma"
-                ]
-            },
-            {
-                "description": "Jack o' Lantern",
-                "object_id": 10042,
-                "affected_objects": [
-                    
-                ]
-            },
-            {
-                "description": "Soul lights",
-                "object_id": 10043,
-                "affected_objects": [
-                    
+                    "slab_magma",
+                    "stairs_magma",
+                    "wall_magma"
                 ]
             },
             {
                 "description": "Pink glow",
                 "object_id": 10047,
                 "affected_objects": [
-                    "slab_crying_obsidian"
-					"stairs_crying_obsidian"
+                    "slab_crying_obsidian",
+                    "stairs_crying_obsidian",
                     "wall_crying_obsidian"
-                ]
-            },
-            {
-                "description": "Nether plants",
-                "object_id": 10049,
-                "affected_objects": [
-                    
                 ]
             },
             {
                 "description": "Ochre froglight",
                 "object_id": 10051,
                 "affected_objects": [
-                    "slab_ochre_froglight"
-					"stairs_ochre_froglight"
-					"wall_ochre_froglight"
+                    "slab_ochre_froglight",
+                    "stairs_ochre_froglight",
+                    "wall_ochre_froglight"
                 ]
             },
             {
                 "description": "Verdant froglight",
                 "object_id": 10052,
                 "affected_objects": [
-                    "slab_verdant_froglight"
-					"stairs_verdant_froglight"
-					"wall_verdant_froglight"
+                    "slab_verdant_froglight",
+                    "stairs_verdant_froglight",
+                    "wall_verdant_froglight"
                 ]
             },
             {
                 "description": "Pearlescent froglight",
                 "object_id": 10053,
                 "affected_objects": [
-                    "slab_pearlescent_froglight"
-					"stairs_pearlescent_froglight"
-					"wall_pearlescent_froglight"
-                ]
-            },
-            {
-                "description": "Redstone block",
-                "object_id": 10058,
-                "affected_objects": [
-                    
+                    "slab_pearlescent_froglight",
+                    "stairs_pearlescent_froglight",
+                    "wall_pearlescent_froglight"
                 ]
             }
         ]
