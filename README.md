@@ -1,18 +1,31 @@
 # mc-automated-properties
 An "automated" way to handle modded blocks/items and generate `.properties` files.
+# Intro / FAQ
+## Wait what is a `.properties` file?
+The Photon shaderpack (and I suspect others as well) use three files to define how the shader should react to different objects in game.
+- `blocks.properties` lists all **placed blocks**. So for example if you have a block that is transparent or a block that emits light, it will do so once placed down in the world
+- `item.properties` lists all **held items**. So for example if you are holding a torch or a glowstone block, the shader will know that there needs to be an aura of light around you because of that
+- `entity.properties` lists all **entities**. So for example mobs like the glow squid or drowner have glowy, emissive parts, and that's the file that defines those
 
-# What is this?
-This is two things
-1. A library of json files with clean info on vanilla & modded blocks
+This can be quite in-depth. For example some blocks emit light when placed, but not when held. Some do so when they are powered, some even only emit light when they are waterlogged.
+This is all defined in the `.properties` files.
+
+## So what does this tool do?
+The default .properties files mostly define vanilla blocks/items/entities.
+This tool generates those same files (`block.properties`, `item.properties`, and `entity.properties`) with a bunch of modded content, and it is very easy for people to define their own mod files so others can generate properties files for those blocks too!
+
+## And how does it do that exactly?
+The tool is split into two parts
+1. A library of json files with clean info on vanilla & modded blocks. Each json file represents one mod (or vanilla interpretation)
 2. A python script that translates those json files into `items.properties`, `blocks.properties`, and `entity.properties` for the [Photon shaderpack](https://modrinth.com/shader/photon-shader) (and maybe others? didn't really check)
 
 Together these two things allow for MUCH faster integration of modded blocks into your shaderpack configuration files ;)
 
-# Which mods are supported?
+## Which mods are supported?
 Simply check out the [list of json files](https://github.com/Allexio/mc-automated-properties/tree/main/input-jsons) available on this github
 
 # How to use
-1. clone the repo,
+1. clone the repo (or download the zip and unzip it if you only plan on using the tool and not contributing),
 2. go inside the downloaded folder, in the `input-jsons` folder,
 3. remove all the `.json` files for mods you are not using,
 4. run `main.py` with python (pretty standard nowadays, if you don't have python, you'll have to [download it](https://www.python.org/downloads/))
