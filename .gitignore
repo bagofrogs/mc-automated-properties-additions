@@ -2,8 +2,8 @@
 *.properties
 
 # output files
-./output/*.json
-./output/*.properties
+/output/*.json
+/output/*.properties
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
