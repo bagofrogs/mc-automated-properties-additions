@@ -10,11 +10,15 @@ def initial_loader():
     object_types = ["block", "item", "entity"]
     unified_raw_data = {}
     for object_type in object_types:
-        file = open(mode="r", file=object_type + ".properties")
+        try:
+            file = open(mode="r", file=object_type + ".properties")
+        except FileNotFoundError:
+            unified_raw_data[object_type] = {}
+            continue
         raw_data_lines = file.readlines()
         unified_raw_data[object_type] = {}
         for line in raw_data_lines:
-            if "=" in line and "#" not in line:  # if I care about this line,
+            if "=" in line and "#" not in line:  # if I care about this line (it's not a comment),
                 unstripped_data = line[line.find("=")+2:].split(" ")  # Get the data
                 stripped_data = [s.strip() for s in unstripped_data]  # Strip spaces and newlines
                 # add it to the dictionary in list format
