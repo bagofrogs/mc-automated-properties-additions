@@ -1,11 +1,12 @@
 """This script allows the user to generate json files as seen in input-jsons from their X.properties files."""
 
-from json import dump # needed to write to .json files
-from os.path import exists # needed to check if there already are .properties files present
-from os import mkdir # needed to create the output file
+from json import dump  # needed to write to .json files
+from os import mkdir  # needed to create the output file
+
 
 def initial_loader():
-    """Loads the initial properties files, merges them into one single python dictionary with no additional processing"""
+    """Loads the initial properties files, merges them into one single
+    python dictionary with no additional processing"""
     object_types = ["block", "item", "entity"]
     unified_raw_data = {}
     for object_type in object_types:
@@ -13,12 +14,13 @@ def initial_loader():
         raw_data_lines = file.readlines()
         unified_raw_data[object_type] = {}
         for line in raw_data_lines:
-            if "=" in line and "#" not in line: # if I care about this line 
+            if "=" in line and "#" not in line:  # if I care about this line,
+                unstripped_data = line[line.find("=")+2:].split(" ")  # Get the data
+                stripped_data = [s.strip() for s in unstripped_data]  # Strip spaces and newlines
                 # add it to the dictionary in list format
-                unstripped_data = line[line.find("=")+2:].split(" ")
-                stripped_data = [s.strip() for s in unstripped_data]
-                unified_raw_data[object_type][int(line[line.find(".")+1:line.find(".")+6])] = stripped_data    
+                unified_raw_data[object_type][int(line[line.find(".")+1:line.find(".")+6])] = stripped_data
     return unified_raw_data
+
 
 def sort_by_mod(unified_raw_data: dict) -> dict:
     """Changes formats to something closer to the json one
@@ -38,12 +40,12 @@ def sort_by_mod(unified_raw_data: dict) -> dict:
         }
     """
     sorted_data = {}
-    
+
     for object_type in unified_raw_data:
         for object_id in unified_raw_data[object_type]:
             for object in unified_raw_data[object_type][object_id]:
-                if ":" not in object: # that means it's a vanilla object
-                    object = "minecraft:" + object # so I add the minecraft: prefix
+                if ":" not in object:  # that means it's a vanilla object
+                    object = "minecraft:" + object  # so I add the minecraft: prefix
                 mod_id = object[:object.find(":")]
                 object_name = object[object.find(":")+1:]
                 if mod_id not in sorted_data:
@@ -52,6 +54,7 @@ def sort_by_mod(unified_raw_data: dict) -> dict:
                     sorted_data[mod_id][object_type][object_id] = []
                 sorted_data[mod_id][object_type][object_id].append(object_name)
     return sorted_data
+
 
 def json_write(sorted_data: dict):
     """Initialises and writes to a new json file for each mod / vanilla
@@ -72,9 +75,10 @@ def json_write(sorted_data: dict):
         with open("./output/"+mod_id+".json", "w") as output_file:
             dump(clean_json, output_file)
 
-### Code execution starts here
 
-#check_existing_file()
+# Code execution starts here
+
+
 raw_data = initial_loader()
 sorted_data = sort_by_mod(raw_data)
 json_write(sorted_data)
