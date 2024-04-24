@@ -46,4 +46,3 @@ def test_json_loader():
 
 json_loader("./input-jsons/")
 json_loader("./input-jsons/alternatives/")
-
