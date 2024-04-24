@@ -1,10 +1,10 @@
 {
     "name": "Absent By Design",
-    "description": ",",
+    "description": "Adds block variations that are missing from minecraft, using existing vanilla textures.",
     "id": "absentbydesign",
-    "version": ",",
-    "comment": ",",
-    "author": ",",
+    "version": "",
+    "comment": "",
+    "author": "stephen5311",
     "data": {
         "block": [
             {
