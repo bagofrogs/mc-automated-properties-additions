@@ -1,4 +1,4 @@
-from os import listdir # needed to list the .json files in the folder
+from os import listdir, mkdir # needed to list the .json files in the folder and create the ouput folder
 from json import load # needed to load the .json files
 from os.path import exists # needed to check if there already are .properties files present
 
@@ -113,7 +113,7 @@ def writer(merged_dict : dict, description_data : dict):
                 output_string+= "\n\n# no description provided" # no description in vanilla file
             output_string+= "\n" + object_type + "." + str(block_id) + " = " + " ".join(merged_dict[object_type][block_id]) # add the block ID and affected blocks
         
-        file = open(mode="w", file=object_type+".properties")
+        file = open(mode="w", file="output/"+object_type+".properties")
         file.write(output_string)
         file.close()
 
