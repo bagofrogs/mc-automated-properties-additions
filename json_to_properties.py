@@ -99,6 +99,22 @@ def check_existing_file():
         return
 
 
+def sort_by_id(merged_dict: dict) -> dict:
+    """Sort a merged dict by object ID (from 10001 to XXXXX)
+    This serves no functional purpose and serves only to make the output file more readable and consistent
+
+    Args:
+        merged_dict (dict): the merged dict with all the information needed
+
+    Returns:
+        sorted_dict (dict): the same dict, just with the keys sorted in increasing order
+    """
+    sorted_dict = {"block": {}, "item": {}, "entity": {}}
+    for object_type in merged_dict:
+        sorted_dict[object_type] = dict(sorted(merged_dict[object_type].items()))
+    return sorted_dict
+
+
 def writer(merged_dict: dict, description_data: dict):
     """Takes a merged dict and writes to local x.properties files
 
@@ -132,6 +148,6 @@ check_existing_file()
 raw_data = loader()
 description_data = description_obtainer(raw_data["vanilla"])
 merged_dict = merger(raw_data)
-
-writer(merged_dict, description_data)
+sorted_dict = sort_by_id(merged_dict)
+writer(sorted_dict, description_data)
 print("Done.")
