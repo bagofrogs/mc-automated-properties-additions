@@ -1,4 +1,4 @@
-"""This script allows the user to generate json files as seen in input-jsons from their X.properties files."""
+"""This script allows the user to generate json files as seen in input_jsons from their X.properties files."""
 
 from json import dump  # needed to write to .json files
 from os import mkdir  # needed to create the output file

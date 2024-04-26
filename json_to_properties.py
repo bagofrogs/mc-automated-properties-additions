@@ -10,11 +10,11 @@ def loader() -> dict:
         dict: dictionary containing all the information in each json, key corresponds to filename
     """
     data_dict = {}  # initialise the dict
-    for file in listdir("./input-jsons"):
+    for file in listdir("./input_jsons"):
         if ".json" not in file or file == "template.json":  # ignore non json files
             continue
         filename = file[:file.find(".json")]  # cut off the .json
-        json_data = load(open("./input-jsons/" + file))  # load json from file into a python dict
+        json_data = load(open("./input_jsons/" + file))  # load json from file into a python dict
         # add mod ID to block IDs
         print("INFO: Loading data from " + json_data["name"])
         current_mod_id = json_data["id"]

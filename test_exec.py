@@ -40,9 +40,9 @@ def json_loader(target_path) -> int:
 
 
 def test_json_loader():
-    assert json_loader("./input-jsons/") == 0
-    assert json_loader("./input-jsons/alternatives/") == 0
+    assert json_loader("./input_jsons/") == 0
+    assert json_loader("./input_jsons/alternatives/") == 0
 
 
-json_loader("./input-jsons/")
-json_loader("./input-jsons/alternatives/")
+json_loader("./input_jsons/")
+json_loader("./input_jsons/alternatives/")

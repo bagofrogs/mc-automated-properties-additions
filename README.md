@@ -22,11 +22,11 @@ The tool is split into two parts
 Together these two things allow for MUCH faster integration of modded blocks into your shaderpack configuration files ;)
 
 ## Which mods are supported?
-Simply check out the [list of json files](https://github.com/Allexio/mc-automated-properties/tree/main/input-jsons) available on this github
+Simply check out the [list of json files](https://github.com/Allexio/mc-automated-properties/tree/main/input_jsons) available on this github
 
 # How to use
 1. clone the repo (or download the zip and unzip it if you only plan on using the tool and not contributing),
-2. go inside the downloaded folder, in the `input-jsons` folder,
+2. go inside the downloaded folder, in the `input_jsons` folder,
 3. remove all the `.json` files for mods you are not using,
 4. run `json_to_properties.py` with python (pretty standard nowadays, if you don't have python, you'll have to [download it](https://www.python.org/downloads/))
 5. normally this should have generated three files: `block.properties`, `entity.properties` and `item.properties`
