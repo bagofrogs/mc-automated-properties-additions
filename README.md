@@ -42,6 +42,7 @@ Profit!
 3. copy one of the json files, (can start from whichever)
 4. rename the file to the name of the mod
 5. start working on adding custom blocks and items to your new `[mod].json` file. You do not need to add the mod id in the block names, just the block id.
-6. when you're done, send it to me on discord (I'll credit you in the commit) or do a PR to add it directly on github
+6. when you're done, do a PR to add it directly on github
+    - if you don't know how it's really quite easy but if you really don't want to bother with it, you can dm me on discord with the json file 
 
 Thank you!
