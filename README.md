@@ -17,7 +17,7 @@ This tool generates those same files (`block.properties`, `item.properties`, and
 ## And how does it do that exactly?
 The tool is split into two parts
 1. A library of json files with clean info on vanilla & modded blocks. Each json file represents one mod (or vanilla interpretation)
-2. A python script that translates those json files into `items.properties`, `blocks.properties`, and `entity.properties` for the [Photon shaderpack](https://modrinth.com/shader/photon-shader) (and maybe others? didn't really check)
+2. A python script that translates those json files into `items.properties`, `blocks.properties`, and `entity.properties` for the [Photon shaderpack](https://modrinth.com/shader/photon-shader) (currently looking into adding support for other shaders)
 
 Together these two things allow for MUCH faster integration of modded blocks into your shaderpack configuration files ;)
 
