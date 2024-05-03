@@ -575,7 +575,7 @@
                     "pink_bioshroom_stem",
                     "pink_bioshroom_hyphae",
                     "yellow_bioshroom_stem",
-                    "yellow_bioshroom_hyphae",
+                    "yellow_bioshroom_hyphae"
                 ]
             },
             {
@@ -821,7 +821,7 @@
                     "willow_pressure_plate",
                     "willow_button",
                     "willow_sign",
-                    "willow_hanging_sign",
+                    "willow_hanging_sign"
                 ]
             }
         ],
