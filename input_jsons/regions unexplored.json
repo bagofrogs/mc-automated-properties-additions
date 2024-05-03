@@ -50,8 +50,6 @@
                     "purple_lupine",
                     "red_lupine",
                     "yellow_lupine",
-                    "orange_coneflower",
-                    "purple_coneflower",
                     "white_snowbelle",
                     "light_gray_snowbelle",
                     "gray_snowbelle",
@@ -561,7 +559,8 @@
                 "object_id": 10032,
                 "affected_objects": [
                     "prismarite_cluster",
-                    "tall_prismarite_cluster",
+                    "tall_prismarite_cluster:half=upper",
+                    "tall_prismarite_cluster:half=lower",
                     "hanging_prismarite"
                 ]
             },
@@ -638,9 +637,12 @@
                     "pink_bioshroom",
                     "tall_pink_bioshroom",
                     "glowing_pink_bioshroom_block",
-                    "glister_bulb",
-                    "glister_spire",
-                    "glistering_ivy"
+                    "glister_bulb:half=upper",
+                    "glister_bulb:half=lower",
+                    "glister_spire:half=upper",
+                    "glister_spire:half=lower",
+                    "glistering_ivy",
+                    "glistering_ivy_plant"
                 ]
             },
             {
